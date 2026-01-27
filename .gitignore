@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+*.jfif
+*.jpg
+*.png
+bom_analysis.json
+detection_results.json
