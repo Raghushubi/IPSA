@@ -82,8 +82,6 @@ output_text = response.choices[0].message.content
 print("\nRaw LLM output:\n")
 print(output_text)
 
-# -------- JSON parsing --------
-
 try:
     if "```json" in output_text:
         json_str = output_text.split("```json")[1].split("```")[0].strip()
