@@ -1,0 +1,20 @@
+{
+  "pcb_type": "Mixed Signal PCB",
+  "complexity": "Medium",
+  "confidence": 0.8,
+  "bom_estimate": {
+    "component_costs": {
+      "CAPACITOR": 1500,
+      "SMALL_COMPONENT": 1050,
+      "MISC": 4545,
+      "CONNECTOR": 1200,
+      "IC_CHIP": 10080,
+      "RESISTOR": 1080
+    },
+    "assembly_cost": 5000,
+    "total_cost_inr": 23775,
+    "cost_range_inr": "20000-25000"
+  },
+  "reasoning": "The PCB contains a mix of components including capacitors, resistors, IC chips, and connectors, indicating a mixed signal design. The presence of IC chips and connectors suggests a moderate level of complexity. The cost estimate is based on average Indian market prices for these components and a moderate assembly cost.",
+  "market_reference": "Indian electronics component and assembly market prices as of 2023"
+}

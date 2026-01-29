@@ -1,0 +1,6037 @@
+{
+  "object_type": "PCB",
+  "total_components": 317,
+  "component_counts": {
+    "CAPACITOR": 95,
+    "SMALL_COMPONENT": 21,
+    "MISC": 91,
+    "CONNECTOR": 6,
+    "IC_CHIP": 68,
+    "RESISTOR": 36
+  },
+  "components": [
+    {
+      "id": 0,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 165,
+        "y": 376,
+        "w": 24,
+        "h": 24
+      },
+      "area": 576,
+      "norm_area": 0.0015,
+      "aspect_ratio": 1.0,
+      "centroid": {
+        "x": 0.184375,
+        "y": 0.97
+      },
+      "mean_intensity": 20.817708333333332,
+      "edge_density": 0.2951388888888889
+    },
+    {
+      "id": 1,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 56,
+        "y": 391,
+        "w": 7,
+        "h": 8
+      },
+      "area": 56,
+      "norm_area": 0.00014583333333333335,
+      "aspect_ratio": 0.875,
+      "centroid": {
+        "x": 0.06197916666666667,
+        "y": 0.9875
+      },
+      "mean_intensity": 49.482142857142854,
+      "edge_density": 0.5714285714285714
+    },
+    {
+      "id": 2,
+      "category": "MISC",
+      "bbox": {
+        "x": 75,
+        "y": 373,
+        "w": 41,
+        "h": 23
+      },
+      "area": 943,
+      "norm_area": 0.002455729166666667,
+      "aspect_ratio": 1.7826086956521738,
+      "centroid": {
+        "x": 0.09947916666666666,
+        "y": 0.96125
+      },
+      "mean_intensity": 23.97136797454931,
+      "edge_density": 0.2545068928950159
+    },
+    {
+      "id": 3,
+      "category": "CONNECTOR",
+      "bbox": {
+        "x": 9,
+        "y": 234,
+        "w": 35,
+        "h": 163
+      },
+      "area": 5705,
+      "norm_area": 0.014856770833333333,
+      "aspect_ratio": 0.2147239263803681,
+      "centroid": {
+        "x": 0.027604166666666666,
+        "y": 0.78875
+      },
+      "mean_intensity": 15.736371603856266,
+      "edge_density": 0.21454864154250658
+    },
+    {
+      "id": 4,
+      "category": "MISC",
+      "bbox": {
+        "x": 124,
+        "y": 373,
+        "w": 37,
+        "h": 23
+      },
+      "area": 851,
+      "norm_area": 0.0022161458333333334,
+      "aspect_ratio": 1.608695652173913,
+      "centroid": {
+        "x": 0.1484375,
+        "y": 0.96125
+      },
+      "mean_intensity": 21.066980023501763,
+      "edge_density": 0.26321974148061106
+    },
+    {
+      "id": 5,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 196,
+        "y": 380,
+        "w": 11,
+        "h": 12
+      },
+      "area": 132,
+      "norm_area": 0.00034375,
+      "aspect_ratio": 0.9166666666666666,
+      "centroid": {
+        "x": 0.20989583333333334,
+        "y": 0.965
+      },
+      "mean_intensity": 30.606060606060606,
+      "edge_density": 0.3409090909090909
+    },
+    {
+      "id": 6,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 30,
+        "y": 361,
+        "w": 19,
+        "h": 18
+      },
+      "area": 342,
+      "norm_area": 0.000890625,
+      "aspect_ratio": 1.0555555555555556,
+      "centroid": {
+        "x": 0.04114583333333333,
+        "y": 0.925
+      },
+      "mean_intensity": 14.41812865497076,
+      "edge_density": 0.2134502923976608
+    },
+    {
+      "id": 7,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 138,
+        "y": 330,
+        "w": 72,
+        "h": 58
+      },
+      "area": 4176,
+      "norm_area": 0.010875,
+      "aspect_ratio": 1.2413793103448276,
+      "centroid": {
+        "x": 0.18125,
+        "y": 0.8975
+      },
+      "mean_intensity": 19.79310344827586,
+      "edge_density": 0.23659003831417624
+    },
+    {
+      "id": 8,
+      "category": "MISC",
+      "bbox": {
+        "x": 67,
+        "y": 368,
+        "w": 8,
+        "h": 17
+      },
+      "area": 136,
+      "norm_area": 0.0003541666666666667,
+      "aspect_ratio": 0.47058823529411764,
+      "centroid": {
+        "x": 0.07395833333333333,
+        "y": 0.94125
+      },
+      "mean_intensity": 32.56617647058823,
+      "edge_density": 0.39705882352941174
+    },
+    {
+      "id": 9,
+      "category": "MISC",
+      "bbox": {
+        "x": 20,
+        "y": 354,
+        "w": 12,
+        "h": 22
+      },
+      "area": 264,
+      "norm_area": 0.0006875,
+      "aspect_ratio": 0.5454545454545454,
+      "centroid": {
+        "x": 0.027083333333333334,
+        "y": 0.9125
+      },
+      "mean_intensity": 23.21212121212121,
+      "edge_density": 0.3106060606060606
+    },
+    {
+      "id": 10,
+      "category": "MISC",
+      "bbox": {
+        "x": 82,
+        "y": 354,
+        "w": 39,
+        "h": 18
+      },
+      "area": 702,
+      "norm_area": 0.001828125,
+      "aspect_ratio": 2.1666666666666665,
+      "centroid": {
+        "x": 0.10572916666666667,
+        "y": 0.9075
+      },
+      "mean_intensity": 22.68945868945869,
+      "edge_density": 0.28062678062678065
+    },
+    {
+      "id": 11,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 190,
+        "y": 348,
+        "w": 6,
+        "h": 9
+      },
+      "area": 54,
+      "norm_area": 0.000140625,
+      "aspect_ratio": 0.6666666666666666,
+      "centroid": {
+        "x": 0.20104166666666667,
+        "y": 0.88125
+      },
+      "mean_intensity": 22.90740740740741,
+      "edge_density": 0.4444444444444444
+    },
+    {
+      "id": 12,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 26,
+        "y": 340,
+        "w": 16,
+        "h": 14
+      },
+      "area": 224,
+      "norm_area": 0.0005833333333333334,
+      "aspect_ratio": 1.1428571428571428,
+      "centroid": {
+        "x": 0.035416666666666666,
+        "y": 0.8675
+      },
+      "mean_intensity": 18.308035714285715,
+      "edge_density": 0.2544642857142857
+    },
+    {
+      "id": 13,
+      "category": "MISC",
+      "bbox": {
+        "x": 140,
+        "y": 332,
+        "w": 21,
+        "h": 35
+      },
+      "area": 735,
+      "norm_area": 0.0019140625,
+      "aspect_ratio": 0.6,
+      "centroid": {
+        "x": 0.15677083333333333,
+        "y": 0.87375
+      },
+      "mean_intensity": 26.556462585034012,
+      "edge_density": 0.2925170068027211
+    },
+    {
+      "id": 14,
+      "category": "MISC",
+      "bbox": {
+        "x": 263,
+        "y": 327,
+        "w": 89,
+        "h": 16
+      },
+      "area": 1424,
+      "norm_area": 0.0037083333333333334,
+      "aspect_ratio": 5.5625,
+      "centroid": {
+        "x": 0.3203125,
+        "y": 0.8375
+      },
+      "mean_intensity": 24.46980337078652,
+      "edge_density": 0.31179775280898875
+    },
+    {
+      "id": 15,
+      "category": "MISC",
+      "bbox": {
+        "x": 57,
+        "y": 342,
+        "w": 15,
+        "h": 25
+      },
+      "area": 375,
+      "norm_area": 0.0009765625,
+      "aspect_ratio": 0.6,
+      "centroid": {
+        "x": 0.0671875,
+        "y": 0.88625
+      },
+      "mean_intensity": 29.392,
+      "edge_density": 0.32266666666666666
+    },
+    {
+      "id": 16,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 0,
+        "y": 327,
+        "w": 15,
+        "h": 40
+      },
+      "area": 600,
+      "norm_area": 0.0015625,
+      "aspect_ratio": 0.375,
+      "centroid": {
+        "x": 0.0078125,
+        "y": 0.8675
+      },
+      "mean_intensity": 15.113333333333333,
+      "edge_density": 0.26166666666666666
+    },
+    {
+      "id": 17,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 223,
+        "y": 318,
+        "w": 47,
+        "h": 82
+      },
+      "area": 3854,
+      "norm_area": 0.010036458333333333,
+      "aspect_ratio": 0.573170731707317,
+      "centroid": {
+        "x": 0.25677083333333334,
+        "y": 0.8975
+      },
+      "mean_intensity": 9.484172288531395,
+      "edge_density": 0.11053450960041515
+    },
+    {
+      "id": 18,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 222,
+        "y": 339,
+        "w": 4,
+        "h": 36
+      },
+      "area": 144,
+      "norm_area": 0.000375,
+      "aspect_ratio": 0.1111111111111111,
+      "centroid": {
+        "x": 0.23333333333333334,
+        "y": 0.8925
+      },
+      "mean_intensity": 43.61805555555556,
+      "edge_density": 0.3194444444444444
+    },
+    {
+      "id": 19,
+      "category": "CONNECTOR",
+      "bbox": {
+        "x": 466,
+        "y": 315,
+        "w": 292,
+        "h": 26
+      },
+      "area": 7592,
+      "norm_area": 0.019770833333333335,
+      "aspect_ratio": 11.23076923076923,
+      "centroid": {
+        "x": 0.6375,
+        "y": 0.82
+      },
+      "mean_intensity": 22.85576923076923,
+      "edge_density": 0.24473129610115912
+    },
+    {
+      "id": 20,
+      "category": "CONNECTOR",
+      "bbox": {
+        "x": 353,
+        "y": 314,
+        "w": 112,
+        "h": 28
+      },
+      "area": 3136,
+      "norm_area": 0.008166666666666666,
+      "aspect_ratio": 4.0,
+      "centroid": {
+        "x": 0.42604166666666665,
+        "y": 0.82
+      },
+      "mean_intensity": 23.710140306122447,
+      "edge_density": 0.29209183673469385
+    },
+    {
+      "id": 21,
+      "category": "CONNECTOR",
+      "bbox": {
+        "x": 739,
+        "y": 331,
+        "w": 206,
+        "h": 10
+      },
+      "area": 2060,
+      "norm_area": 0.005364583333333333,
+      "aspect_ratio": 20.6,
+      "centroid": {
+        "x": 0.8770833333333333,
+        "y": 0.84
+      },
+      "mean_intensity": 38.487864077669904,
+      "edge_density": 0.341747572815534
+    },
+    {
+      "id": 22,
+      "category": "CONNECTOR",
+      "bbox": {
+        "x": 297,
+        "y": 312,
+        "w": 82,
+        "h": 26
+      },
+      "area": 2132,
+      "norm_area": 0.005552083333333333,
+      "aspect_ratio": 3.1538461538461537,
+      "centroid": {
+        "x": 0.35208333333333336,
+        "y": 0.8125
+      },
+      "mean_intensity": 25.49671669793621,
+      "edge_density": 0.3062851782363977
+    },
+    {
+      "id": 23,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 953,
+        "y": 332,
+        "w": 7,
+        "h": 8
+      },
+      "area": 56,
+      "norm_area": 0.00014583333333333335,
+      "aspect_ratio": 0.875,
+      "centroid": {
+        "x": 0.9963541666666667,
+        "y": 0.84
+      },
+      "mean_intensity": 36.55357142857143,
+      "edge_density": 0.375
+    },
+    {
+      "id": 24,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 659,
+        "y": 313,
+        "w": 53,
+        "h": 22
+      },
+      "area": 1166,
+      "norm_area": 0.0030364583333333333,
+      "aspect_ratio": 2.409090909090909,
+      "centroid": {
+        "x": 0.7140625,
+        "y": 0.81
+      },
+      "mean_intensity": 23.330188679245282,
+      "edge_density": 0.27530017152658665
+    },
+    {
+      "id": 25,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 87,
+        "y": 320,
+        "w": 45,
+        "h": 34
+      },
+      "area": 1530,
+      "norm_area": 0.003984375,
+      "aspect_ratio": 1.3235294117647058,
+      "centroid": {
+        "x": 0.1140625,
+        "y": 0.8425
+      },
+      "mean_intensity": 14.841176470588236,
+      "edge_density": 0.16143790849673204
+    },
+    {
+      "id": 26,
+      "category": "MISC",
+      "bbox": {
+        "x": 723,
+        "y": 315,
+        "w": 16,
+        "h": 23
+      },
+      "area": 368,
+      "norm_area": 0.0009583333333333333,
+      "aspect_ratio": 0.6956521739130435,
+      "centroid": {
+        "x": 0.7614583333333333,
+        "y": 0.81625
+      },
+      "mean_intensity": 18.17663043478261,
+      "edge_density": 0.26902173913043476
+    },
+    {
+      "id": 27,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 348,
+        "y": 316,
+        "w": 18,
+        "h": 16
+      },
+      "area": 288,
+      "norm_area": 0.00075,
+      "aspect_ratio": 1.125,
+      "centroid": {
+        "x": 0.371875,
+        "y": 0.81
+      },
+      "mean_intensity": 37.14930555555556,
+      "edge_density": 0.2951388888888889
+    },
+    {
+      "id": 28,
+      "category": "MISC",
+      "bbox": {
+        "x": 66,
+        "y": 313,
+        "w": 21,
+        "h": 47
+      },
+      "area": 987,
+      "norm_area": 0.0025703125,
+      "aspect_ratio": 0.44680851063829785,
+      "centroid": {
+        "x": 0.0796875,
+        "y": 0.84125
+      },
+      "mean_intensity": 24.704154002026343,
+      "edge_density": 0.27152988855116517
+    },
+    {
+      "id": 29,
+      "category": "MISC",
+      "bbox": {
+        "x": 624,
+        "y": 301,
+        "w": 38,
+        "h": 23
+      },
+      "area": 874,
+      "norm_area": 0.0022760416666666667,
+      "aspect_ratio": 1.6521739130434783,
+      "centroid": {
+        "x": 0.6697916666666667,
+        "y": 0.78125
+      },
+      "mean_intensity": 24.45308924485126,
+      "edge_density": 0.30778032036613273
+    },
+    {
+      "id": 30,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 235,
+        "y": 311,
+        "w": 60,
+        "h": 15
+      },
+      "area": 900,
+      "norm_area": 0.00234375,
+      "aspect_ratio": 4.0,
+      "centroid": {
+        "x": 0.2760416666666667,
+        "y": 0.79625
+      },
+      "mean_intensity": 24.06888888888889,
+      "edge_density": 0.3277777777777778
+    },
+    {
+      "id": 31,
+      "category": "MISC",
+      "bbox": {
+        "x": 922,
+        "y": 305,
+        "w": 38,
+        "h": 22
+      },
+      "area": 836,
+      "norm_area": 0.0021770833333333334,
+      "aspect_ratio": 1.7272727272727273,
+      "centroid": {
+        "x": 0.9802083333333333,
+        "y": 0.79
+      },
+      "mean_intensity": 17.67105263157895,
+      "edge_density": 0.2894736842105263
+    },
+    {
+      "id": 32,
+      "category": "MISC",
+      "bbox": {
+        "x": 224,
+        "y": 318,
+        "w": 16,
+        "h": 9
+      },
+      "area": 144,
+      "norm_area": 0.000375,
+      "aspect_ratio": 1.7777777777777777,
+      "centroid": {
+        "x": 0.24166666666666667,
+        "y": 0.80625
+      },
+      "mean_intensity": 44.861111111111114,
+      "edge_density": 0.4791666666666667
+    },
+    {
+      "id": 33,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 161,
+        "y": 303,
+        "w": 20,
+        "h": 22
+      },
+      "area": 440,
+      "norm_area": 0.0011458333333333333,
+      "aspect_ratio": 0.9090909090909091,
+      "centroid": {
+        "x": 0.178125,
+        "y": 0.785
+      },
+      "mean_intensity": 21.722727272727273,
+      "edge_density": 0.22045454545454546
+    },
+    {
+      "id": 34,
+      "category": "MISC",
+      "bbox": {
+        "x": 312,
+        "y": 317,
+        "w": 16,
+        "h": 10
+      },
+      "area": 160,
+      "norm_area": 0.0004166666666666667,
+      "aspect_ratio": 1.6,
+      "centroid": {
+        "x": 0.3333333333333333,
+        "y": 0.805
+      },
+      "mean_intensity": 35.99375,
+      "edge_density": 0.425
+    },
+    {
+      "id": 35,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 280,
+        "y": 308,
+        "w": 25,
+        "h": 29
+      },
+      "area": 725,
+      "norm_area": 0.0018880208333333333,
+      "aspect_ratio": 0.8620689655172413,
+      "centroid": {
+        "x": 0.3046875,
+        "y": 0.80625
+      },
+      "mean_intensity": 21.15448275862069,
+      "edge_density": 0.3544827586206897
+    },
+    {
+      "id": 36,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 584,
+        "y": 298,
+        "w": 32,
+        "h": 31
+      },
+      "area": 992,
+      "norm_area": 0.0025833333333333333,
+      "aspect_ratio": 1.032258064516129,
+      "centroid": {
+        "x": 0.625,
+        "y": 0.78375
+      },
+      "mean_intensity": 20.38407258064516,
+      "edge_density": 0.28931451612903225
+    },
+    {
+      "id": 37,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 435,
+        "y": 309,
+        "w": 23,
+        "h": 22
+      },
+      "area": 506,
+      "norm_area": 0.0013177083333333333,
+      "aspect_ratio": 1.0454545454545454,
+      "centroid": {
+        "x": 0.46510416666666665,
+        "y": 0.8
+      },
+      "mean_intensity": 29.278656126482215,
+      "edge_density": 0.3577075098814229
+    },
+    {
+      "id": 38,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 5,
+        "y": 314,
+        "w": 10,
+        "h": 12
+      },
+      "area": 120,
+      "norm_area": 0.0003125,
+      "aspect_ratio": 0.8333333333333334,
+      "centroid": {
+        "x": 0.010416666666666666,
+        "y": 0.8
+      },
+      "mean_intensity": 27.983333333333334,
+      "edge_density": 0.35
+    },
+    {
+      "id": 39,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 768,
+        "y": 313,
+        "w": 52,
+        "h": 6
+      },
+      "area": 312,
+      "norm_area": 0.0008125,
+      "aspect_ratio": 8.666666666666666,
+      "centroid": {
+        "x": 0.8270833333333333,
+        "y": 0.79
+      },
+      "mean_intensity": 14.599358974358974,
+      "edge_density": 0.3525641025641026
+    },
+    {
+      "id": 40,
+      "category": "MISC",
+      "bbox": {
+        "x": 748,
+        "y": 304,
+        "w": 19,
+        "h": 28
+      },
+      "area": 532,
+      "norm_area": 0.0013854166666666667,
+      "aspect_ratio": 0.6785714285714286,
+      "centroid": {
+        "x": 0.7890625,
+        "y": 0.795
+      },
+      "mean_intensity": 15.428571428571429,
+      "edge_density": 0.20112781954887218
+    },
+    {
+      "id": 41,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 821,
+        "y": 312,
+        "w": 99,
+        "h": 6
+      },
+      "area": 594,
+      "norm_area": 0.001546875,
+      "aspect_ratio": 16.5,
+      "centroid": {
+        "x": 0.9067708333333333,
+        "y": 0.7875
+      },
+      "mean_intensity": 14.372053872053872,
+      "edge_density": 0.3265993265993266
+    },
+    {
+      "id": 42,
+      "category": "MISC",
+      "bbox": {
+        "x": 499,
+        "y": 309,
+        "w": 40,
+        "h": 21
+      },
+      "area": 840,
+      "norm_area": 0.0021875,
+      "aspect_ratio": 1.9047619047619047,
+      "centroid": {
+        "x": 0.540625,
+        "y": 0.79875
+      },
+      "mean_intensity": 27.401190476190475,
+      "edge_density": 0.28095238095238095
+    },
+    {
+      "id": 43,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 653,
+        "y": 291,
+        "w": 19,
+        "h": 25
+      },
+      "area": 475,
+      "norm_area": 0.0012369791666666666,
+      "aspect_ratio": 0.76,
+      "centroid": {
+        "x": 0.6901041666666666,
+        "y": 0.75875
+      },
+      "mean_intensity": 35.80421052631579,
+      "edge_density": 0.36
+    },
+    {
+      "id": 44,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 540,
+        "y": 296,
+        "w": 41,
+        "h": 25
+      },
+      "area": 1025,
+      "norm_area": 0.0026692708333333334,
+      "aspect_ratio": 1.64,
+      "centroid": {
+        "x": 0.5838541666666667,
+        "y": 0.77125
+      },
+      "mean_intensity": 24.56878048780488,
+      "edge_density": 0.2839024390243902
+    },
+    {
+      "id": 45,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 413,
+        "y": 299,
+        "w": 27,
+        "h": 30
+      },
+      "area": 810,
+      "norm_area": 0.002109375,
+      "aspect_ratio": 0.9,
+      "centroid": {
+        "x": 0.44427083333333334,
+        "y": 0.785
+      },
+      "mean_intensity": 28.938271604938272,
+      "edge_density": 0.3432098765432099
+    },
+    {
+      "id": 46,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 94,
+        "y": 295,
+        "w": 27,
+        "h": 22
+      },
+      "area": 594,
+      "norm_area": 0.001546875,
+      "aspect_ratio": 1.2272727272727273,
+      "centroid": {
+        "x": 0.11197916666666667,
+        "y": 0.765
+      },
+      "mean_intensity": 26.272727272727273,
+      "edge_density": 0.3063973063973064
+    },
+    {
+      "id": 47,
+      "category": "MISC",
+      "bbox": {
+        "x": 232,
+        "y": 159,
+        "w": 186,
+        "h": 156
+      },
+      "area": 29016,
+      "norm_area": 0.0755625,
+      "aspect_ratio": 1.1923076923076923,
+      "centroid": {
+        "x": 0.3385416666666667,
+        "y": 0.5925
+      },
+      "mean_intensity": 16.831851392335263,
+      "edge_density": 0.17886683209263854
+    },
+    {
+      "id": 48,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 352,
+        "y": 307,
+        "w": 22,
+        "h": 3
+      },
+      "area": 66,
+      "norm_area": 0.000171875,
+      "aspect_ratio": 7.333333333333333,
+      "centroid": {
+        "x": 0.378125,
+        "y": 0.77125
+      },
+      "mean_intensity": 9.484848484848484,
+      "edge_density": 0.696969696969697
+    },
+    {
+      "id": 49,
+      "category": "MISC",
+      "bbox": {
+        "x": 51,
+        "y": 305,
+        "w": 26,
+        "h": 17
+      },
+      "area": 442,
+      "norm_area": 0.0011510416666666667,
+      "aspect_ratio": 1.5294117647058822,
+      "centroid": {
+        "x": 0.06666666666666667,
+        "y": 0.78375
+      },
+      "mean_intensity": 24.622171945701357,
+      "edge_density": 0.3054298642533937
+    },
+    {
+      "id": 50,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 458,
+        "y": 280,
+        "w": 41,
+        "h": 45
+      },
+      "area": 1845,
+      "norm_area": 0.0048046875,
+      "aspect_ratio": 0.9111111111111111,
+      "centroid": {
+        "x": 0.4984375,
+        "y": 0.75625
+      },
+      "mean_intensity": 27.15609756097561,
+      "edge_density": 0.31490514905149053
+    },
+    {
+      "id": 51,
+      "category": "MISC",
+      "bbox": {
+        "x": 169,
+        "y": 295,
+        "w": 43,
+        "h": 19
+      },
+      "area": 817,
+      "norm_area": 0.0021276041666666665,
+      "aspect_ratio": 2.263157894736842,
+      "centroid": {
+        "x": 0.1984375,
+        "y": 0.76125
+      },
+      "mean_intensity": 27.193390452876375,
+      "edge_density": 0.3108935128518972
+    },
+    {
+      "id": 52,
+      "category": "MISC",
+      "bbox": {
+        "x": 128,
+        "y": 300,
+        "w": 22,
+        "h": 12
+      },
+      "area": 264,
+      "norm_area": 0.0006875,
+      "aspect_ratio": 1.8333333333333333,
+      "centroid": {
+        "x": 0.14479166666666668,
+        "y": 0.765
+      },
+      "mean_intensity": 24.992424242424242,
+      "edge_density": 0.3333333333333333
+    },
+    {
+      "id": 53,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 608,
+        "y": 283,
+        "w": 33,
+        "h": 24
+      },
+      "area": 792,
+      "norm_area": 0.0020625,
+      "aspect_ratio": 1.375,
+      "centroid": {
+        "x": 0.6505208333333333,
+        "y": 0.7375
+      },
+      "mean_intensity": 28.832070707070706,
+      "edge_density": 0.3712121212121212
+    },
+    {
+      "id": 54,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 36,
+        "y": 294,
+        "w": 16,
+        "h": 12
+      },
+      "area": 192,
+      "norm_area": 0.0005,
+      "aspect_ratio": 1.3333333333333333,
+      "centroid": {
+        "x": 0.04583333333333333,
+        "y": 0.75
+      },
+      "mean_intensity": 30.588541666666668,
+      "edge_density": 0.34375
+    },
+    {
+      "id": 55,
+      "category": "MISC",
+      "bbox": {
+        "x": 674,
+        "y": 297,
+        "w": 10,
+        "h": 25
+      },
+      "area": 250,
+      "norm_area": 0.0006510416666666666,
+      "aspect_ratio": 0.4,
+      "centroid": {
+        "x": 0.7072916666666667,
+        "y": 0.77375
+      },
+      "mean_intensity": 20.792,
+      "edge_density": 0.3
+    },
+    {
+      "id": 56,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 267,
+        "y": 297,
+        "w": 13,
+        "h": 4
+      },
+      "area": 52,
+      "norm_area": 0.00013541666666666666,
+      "aspect_ratio": 3.25,
+      "centroid": {
+        "x": 0.28489583333333335,
+        "y": 0.7475
+      },
+      "mean_intensity": 3.5576923076923075,
+      "edge_density": 0.3076923076923077
+    },
+    {
+      "id": 57,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 678,
+        "y": 282,
+        "w": 51,
+        "h": 27
+      },
+      "area": 1377,
+      "norm_area": 0.0035859375,
+      "aspect_ratio": 1.8888888888888888,
+      "centroid": {
+        "x": 0.7328125,
+        "y": 0.73875
+      },
+      "mean_intensity": 17.719680464778502,
+      "edge_density": 0.24546114742193173
+    },
+    {
+      "id": 58,
+      "category": "MISC",
+      "bbox": {
+        "x": 929,
+        "y": 285,
+        "w": 31,
+        "h": 22
+      },
+      "area": 682,
+      "norm_area": 0.0017760416666666667,
+      "aspect_ratio": 1.4090909090909092,
+      "centroid": {
+        "x": 0.9838541666666667,
+        "y": 0.74
+      },
+      "mean_intensity": 28.167155425219942,
+      "edge_density": 0.250733137829912
+    },
+    {
+      "id": 59,
+      "category": "MISC",
+      "bbox": {
+        "x": 725,
+        "y": 285,
+        "w": 36,
+        "h": 24
+      },
+      "area": 864,
+      "norm_area": 0.00225,
+      "aspect_ratio": 1.5,
+      "centroid": {
+        "x": 0.7739583333333333,
+        "y": 0.7425
+      },
+      "mean_intensity": 35.320601851851855,
+      "edge_density": 0.26273148148148145
+    },
+    {
+      "id": 60,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 147,
+        "y": 269,
+        "w": 24,
+        "h": 32
+      },
+      "area": 768,
+      "norm_area": 0.002,
+      "aspect_ratio": 0.75,
+      "centroid": {
+        "x": 0.165625,
+        "y": 0.7125
+      },
+      "mean_intensity": 29.463541666666668,
+      "edge_density": 0.2942708333333333
+    },
+    {
+      "id": 61,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 71,
+        "y": 279,
+        "w": 22,
+        "h": 29
+      },
+      "area": 638,
+      "norm_area": 0.0016614583333333334,
+      "aspect_ratio": 0.7586206896551724,
+      "centroid": {
+        "x": 0.08541666666666667,
+        "y": 0.73375
+      },
+      "mean_intensity": 24.42476489028213,
+      "edge_density": 0.28056426332288403
+    },
+    {
+      "id": 62,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 843,
+        "y": 277,
+        "w": 50,
+        "h": 23
+      },
+      "area": 1150,
+      "norm_area": 0.002994791666666667,
+      "aspect_ratio": 2.1739130434782608,
+      "centroid": {
+        "x": 0.9041666666666667,
+        "y": 0.72125
+      },
+      "mean_intensity": 26.428695652173914,
+      "edge_density": 0.21913043478260869
+    },
+    {
+      "id": 63,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 901,
+        "y": 269,
+        "w": 33,
+        "h": 32
+      },
+      "area": 1056,
+      "norm_area": 0.00275,
+      "aspect_ratio": 1.03125,
+      "centroid": {
+        "x": 0.9557291666666666,
+        "y": 0.7125
+      },
+      "mean_intensity": 22.853219696969695,
+      "edge_density": 0.2168560606060606
+    },
+    {
+      "id": 64,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 494,
+        "y": 279,
+        "w": 45,
+        "h": 29
+      },
+      "area": 1305,
+      "norm_area": 0.0033984375,
+      "aspect_ratio": 1.5517241379310345,
+      "centroid": {
+        "x": 0.5380208333333333,
+        "y": 0.73375
+      },
+      "mean_intensity": 23.882758620689657,
+      "edge_density": 0.2988505747126437
+    },
+    {
+      "id": 65,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 526,
+        "y": 268,
+        "w": 76,
+        "h": 34
+      },
+      "area": 2584,
+      "norm_area": 0.006729166666666666,
+      "aspect_ratio": 2.235294117647059,
+      "centroid": {
+        "x": 0.5875,
+        "y": 0.7125
+      },
+      "mean_intensity": 23.875,
+      "edge_density": 0.2654798761609907
+    },
+    {
+      "id": 66,
+      "category": "MISC",
+      "bbox": {
+        "x": 9,
+        "y": 280,
+        "w": 15,
+        "h": 33
+      },
+      "area": 495,
+      "norm_area": 0.0012890625,
+      "aspect_ratio": 0.45454545454545453,
+      "centroid": {
+        "x": 0.0171875,
+        "y": 0.74125
+      },
+      "mean_intensity": 17.737373737373737,
+      "edge_density": 0.28888888888888886
+    },
+    {
+      "id": 67,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 414,
+        "y": 265,
+        "w": 45,
+        "h": 38
+      },
+      "area": 1710,
+      "norm_area": 0.004453125,
+      "aspect_ratio": 1.1842105263157894,
+      "centroid": {
+        "x": 0.4546875,
+        "y": 0.71
+      },
+      "mean_intensity": 23.82046783625731,
+      "edge_density": 0.2654970760233918
+    },
+    {
+      "id": 68,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 88,
+        "y": 257,
+        "w": 56,
+        "h": 35
+      },
+      "area": 1960,
+      "norm_area": 0.005104166666666667,
+      "aspect_ratio": 1.6,
+      "centroid": {
+        "x": 0.12083333333333333,
+        "y": 0.68625
+      },
+      "mean_intensity": 20.00357142857143,
+      "edge_density": 0.22040816326530613
+    },
+    {
+      "id": 69,
+      "category": "MISC",
+      "bbox": {
+        "x": 805,
+        "y": 214,
+        "w": 152,
+        "h": 84
+      },
+      "area": 12768,
+      "norm_area": 0.03325,
+      "aspect_ratio": 1.8095238095238095,
+      "centroid": {
+        "x": 0.9177083333333333,
+        "y": 0.64
+      },
+      "mean_intensity": 24.847117794486216,
+      "edge_density": 0.2461622807017544
+    },
+    {
+      "id": 70,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 774,
+        "y": 267,
+        "w": 31,
+        "h": 31
+      },
+      "area": 961,
+      "norm_area": 0.002502604166666667,
+      "aspect_ratio": 1.0,
+      "centroid": {
+        "x": 0.8223958333333333,
+        "y": 0.70625
+      },
+      "mean_intensity": 30.571279916753383,
+      "edge_density": 0.2601456815816857
+    },
+    {
+      "id": 71,
+      "category": "MISC",
+      "bbox": {
+        "x": 54,
+        "y": 267,
+        "w": 16,
+        "h": 23
+      },
+      "area": 368,
+      "norm_area": 0.0009583333333333333,
+      "aspect_ratio": 0.6956521739130435,
+      "centroid": {
+        "x": 0.06458333333333334,
+        "y": 0.69625
+      },
+      "mean_intensity": 11.456521739130435,
+      "edge_density": 0.18478260869565216
+    },
+    {
+      "id": 72,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 603,
+        "y": 265,
+        "w": 28,
+        "h": 28
+      },
+      "area": 784,
+      "norm_area": 0.0020416666666666665,
+      "aspect_ratio": 1.0,
+      "centroid": {
+        "x": 0.6427083333333333,
+        "y": 0.6975
+      },
+      "mean_intensity": 31.117346938775512,
+      "edge_density": 0.3673469387755102
+    },
+    {
+      "id": 73,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 661,
+        "y": 271,
+        "w": 18,
+        "h": 20
+      },
+      "area": 360,
+      "norm_area": 0.0009375,
+      "aspect_ratio": 0.9,
+      "centroid": {
+        "x": 0.6979166666666666,
+        "y": 0.7025
+      },
+      "mean_intensity": 33.49444444444445,
+      "edge_density": 0.3527777777777778
+    },
+    {
+      "id": 74,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 383,
+        "y": 269,
+        "w": 26,
+        "h": 25
+      },
+      "area": 650,
+      "norm_area": 0.0016927083333333334,
+      "aspect_ratio": 1.04,
+      "centroid": {
+        "x": 0.4125,
+        "y": 0.70375
+      },
+      "mean_intensity": 33.855384615384615,
+      "edge_density": 0.31384615384615383
+    },
+    {
+      "id": 75,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 880,
+        "y": 272,
+        "w": 21,
+        "h": 18
+      },
+      "area": 378,
+      "norm_area": 0.000984375,
+      "aspect_ratio": 1.1666666666666667,
+      "centroid": {
+        "x": 0.9276041666666667,
+        "y": 0.7025
+      },
+      "mean_intensity": 40.973544973544975,
+      "edge_density": 0.29365079365079366
+    },
+    {
+      "id": 76,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 626,
+        "y": 259,
+        "w": 28,
+        "h": 35
+      },
+      "area": 980,
+      "norm_area": 0.0025520833333333333,
+      "aspect_ratio": 0.8,
+      "centroid": {
+        "x": 0.6666666666666666,
+        "y": 0.69125
+      },
+      "mean_intensity": 29.692857142857143,
+      "edge_density": 0.33163265306122447
+    },
+    {
+      "id": 77,
+      "category": "MISC",
+      "bbox": {
+        "x": 738,
+        "y": 260,
+        "w": 35,
+        "h": 21
+      },
+      "area": 735,
+      "norm_area": 0.0019140625,
+      "aspect_ratio": 1.6666666666666667,
+      "centroid": {
+        "x": 0.7869791666666667,
+        "y": 0.67625
+      },
+      "mean_intensity": 24.91292517006803,
+      "edge_density": 0.3346938775510204
+    },
+    {
+      "id": 78,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 305,
+        "y": 275,
+        "w": 12,
+        "h": 6
+      },
+      "area": 72,
+      "norm_area": 0.0001875,
+      "aspect_ratio": 2.0,
+      "centroid": {
+        "x": 0.32395833333333335,
+        "y": 0.695
+      },
+      "mean_intensity": 34.0,
+      "edge_density": 0.2916666666666667
+    },
+    {
+      "id": 79,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 576,
+        "y": 252,
+        "w": 30,
+        "h": 33
+      },
+      "area": 990,
+      "norm_area": 0.002578125,
+      "aspect_ratio": 0.9090909090909091,
+      "centroid": {
+        "x": 0.615625,
+        "y": 0.67125
+      },
+      "mean_intensity": 28.91919191919192,
+      "edge_density": 0.3393939393939394
+    },
+    {
+      "id": 80,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 330,
+        "y": 267,
+        "w": 52,
+        "h": 18
+      },
+      "area": 936,
+      "norm_area": 0.0024375,
+      "aspect_ratio": 2.888888888888889,
+      "centroid": {
+        "x": 0.37083333333333335,
+        "y": 0.69
+      },
+      "mean_intensity": 15.9508547008547,
+      "edge_density": 0.24252136752136752
+    },
+    {
+      "id": 81,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 944,
+        "y": 273,
+        "w": 6,
+        "h": 12
+      },
+      "area": 72,
+      "norm_area": 0.0001875,
+      "aspect_ratio": 0.5,
+      "centroid": {
+        "x": 0.9864583333333333,
+        "y": 0.6975
+      },
+      "mean_intensity": 24.680555555555557,
+      "edge_density": 0.3472222222222222
+    },
+    {
+      "id": 82,
+      "category": "MISC",
+      "bbox": {
+        "x": 721,
+        "y": 265,
+        "w": 26,
+        "h": 16
+      },
+      "area": 416,
+      "norm_area": 0.0010833333333333333,
+      "aspect_ratio": 1.625,
+      "centroid": {
+        "x": 0.7645833333333333,
+        "y": 0.6825
+      },
+      "mean_intensity": 31.545673076923077,
+      "edge_density": 0.3870192307692308
+    },
+    {
+      "id": 83,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 497,
+        "y": 245,
+        "w": 44,
+        "h": 37
+      },
+      "area": 1628,
+      "norm_area": 0.004239583333333333,
+      "aspect_ratio": 1.1891891891891893,
+      "centroid": {
+        "x": 0.540625,
+        "y": 0.65875
+      },
+      "mean_intensity": 23.615479115479115,
+      "edge_density": 0.2917690417690418
+    },
+    {
+      "id": 84,
+      "category": "MISC",
+      "bbox": {
+        "x": 545,
+        "y": 261,
+        "w": 17,
+        "h": 27
+      },
+      "area": 459,
+      "norm_area": 0.0011953125,
+      "aspect_ratio": 0.6296296296296297,
+      "centroid": {
+        "x": 0.5765625,
+        "y": 0.68625
+      },
+      "mean_intensity": 17.721132897603486,
+      "edge_density": 0.24618736383442266
+    },
+    {
+      "id": 85,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 39,
+        "y": 261,
+        "w": 21,
+        "h": 18
+      },
+      "area": 378,
+      "norm_area": 0.000984375,
+      "aspect_ratio": 1.1666666666666667,
+      "centroid": {
+        "x": 0.0515625,
+        "y": 0.675
+      },
+      "mean_intensity": 29.582010582010582,
+      "edge_density": 0.2619047619047619
+    },
+    {
+      "id": 86,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 169,
+        "y": 269,
+        "w": 4,
+        "h": 25
+      },
+      "area": 100,
+      "norm_area": 0.00026041666666666666,
+      "aspect_ratio": 0.16,
+      "centroid": {
+        "x": 0.178125,
+        "y": 0.70375
+      },
+      "mean_intensity": 31.64,
+      "edge_density": 0.35
+    },
+    {
+      "id": 87,
+      "category": "CONNECTOR",
+      "bbox": {
+        "x": 226,
+        "y": 197,
+        "w": 23,
+        "h": 94
+      },
+      "area": 2162,
+      "norm_area": 0.005630208333333333,
+      "aspect_ratio": 0.24468085106382978,
+      "centroid": {
+        "x": 0.24739583333333334,
+        "y": 0.61
+      },
+      "mean_intensity": 29.317761332099906,
+      "edge_density": 0.2391304347826087
+    },
+    {
+      "id": 88,
+      "category": "MISC",
+      "bbox": {
+        "x": 459,
+        "y": 261,
+        "w": 36,
+        "h": 16
+      },
+      "area": 576,
+      "norm_area": 0.0015,
+      "aspect_ratio": 2.25,
+      "centroid": {
+        "x": 0.496875,
+        "y": 0.6725
+      },
+      "mean_intensity": 35.482638888888886,
+      "edge_density": 0.375
+    },
+    {
+      "id": 89,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 172,
+        "y": 263,
+        "w": 43,
+        "h": 33
+      },
+      "area": 1419,
+      "norm_area": 0.0036953125,
+      "aspect_ratio": 1.303030303030303,
+      "centroid": {
+        "x": 0.2015625,
+        "y": 0.69875
+      },
+      "mean_intensity": 13.249471458773785,
+      "edge_density": 0.14658210007047218
+    },
+    {
+      "id": 90,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 622,
+        "y": 248,
+        "w": 25,
+        "h": 23
+      },
+      "area": 575,
+      "norm_area": 0.0014973958333333334,
+      "aspect_ratio": 1.0869565217391304,
+      "centroid": {
+        "x": 0.6609375,
+        "y": 0.64875
+      },
+      "mean_intensity": 31.48521739130435,
+      "edge_density": 0.288695652173913
+    },
+    {
+      "id": 91,
+      "category": "MISC",
+      "bbox": {
+        "x": 15,
+        "y": 251,
+        "w": 12,
+        "h": 28
+      },
+      "area": 336,
+      "norm_area": 0.000875,
+      "aspect_ratio": 0.42857142857142855,
+      "centroid": {
+        "x": 0.021875,
+        "y": 0.6625
+      },
+      "mean_intensity": 20.392857142857142,
+      "edge_density": 0.2916666666666667
+    },
+    {
+      "id": 92,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 779,
+        "y": 237,
+        "w": 26,
+        "h": 30
+      },
+      "area": 780,
+      "norm_area": 0.00203125,
+      "aspect_ratio": 0.8666666666666667,
+      "centroid": {
+        "x": 0.825,
+        "y": 0.63
+      },
+      "mean_intensity": 21.775641025641026,
+      "edge_density": 0.3128205128205128
+    },
+    {
+      "id": 93,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 666,
+        "y": 230,
+        "w": 46,
+        "h": 33
+      },
+      "area": 1518,
+      "norm_area": 0.003953125,
+      "aspect_ratio": 1.393939393939394,
+      "centroid": {
+        "x": 0.7177083333333333,
+        "y": 0.61625
+      },
+      "mean_intensity": 23.697628458498023,
+      "edge_density": 0.27931488801054016
+    },
+    {
+      "id": 94,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 205,
+        "y": 242,
+        "w": 22,
+        "h": 20
+      },
+      "area": 440,
+      "norm_area": 0.0011458333333333333,
+      "aspect_ratio": 1.1,
+      "centroid": {
+        "x": 0.225,
+        "y": 0.63
+      },
+      "mean_intensity": 20.51818181818182,
+      "edge_density": 0.2545454545454545
+    },
+    {
+      "id": 95,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 276,
+        "y": 242,
+        "w": 15,
+        "h": 41
+      },
+      "area": 615,
+      "norm_area": 0.0016015625,
+      "aspect_ratio": 0.36585365853658536,
+      "centroid": {
+        "x": 0.2953125,
+        "y": 0.65625
+      },
+      "mean_intensity": 24.814634146341465,
+      "edge_density": 0.2764227642276423
+    },
+    {
+      "id": 96,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 593,
+        "y": 236,
+        "w": 25,
+        "h": 32
+      },
+      "area": 800,
+      "norm_area": 0.0020833333333333333,
+      "aspect_ratio": 0.78125,
+      "centroid": {
+        "x": 0.6307291666666667,
+        "y": 0.63
+      },
+      "mean_intensity": 29.93125,
+      "edge_density": 0.315
+    },
+    {
+      "id": 97,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 403,
+        "y": 238,
+        "w": 38,
+        "h": 30
+      },
+      "area": 1140,
+      "norm_area": 0.00296875,
+      "aspect_ratio": 1.2666666666666666,
+      "centroid": {
+        "x": 0.4395833333333333,
+        "y": 0.6325
+      },
+      "mean_intensity": 22.237719298245615,
+      "edge_density": 0.27280701754385966
+    },
+    {
+      "id": 98,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 174,
+        "y": 252,
+        "w": 34,
+        "h": 9
+      },
+      "area": 306,
+      "norm_area": 0.000796875,
+      "aspect_ratio": 3.7777777777777777,
+      "centroid": {
+        "x": 0.19895833333333332,
+        "y": 0.64125
+      },
+      "mean_intensity": 39.30718954248366,
+      "edge_density": 0.39869281045751637
+    },
+    {
+      "id": 99,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 898,
+        "y": 249,
+        "w": 11,
+        "h": 6
+      },
+      "area": 66,
+      "norm_area": 0.000171875,
+      "aspect_ratio": 1.8333333333333333,
+      "centroid": {
+        "x": 0.9411458333333333,
+        "y": 0.63
+      },
+      "mean_intensity": 23.21212121212121,
+      "edge_density": 0.36363636363636365
+    },
+    {
+      "id": 100,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 734,
+        "y": 230,
+        "w": 28,
+        "h": 25
+      },
+      "area": 700,
+      "norm_area": 0.0018229166666666667,
+      "aspect_ratio": 1.12,
+      "centroid": {
+        "x": 0.7791666666666667,
+        "y": 0.60625
+      },
+      "mean_intensity": 24.28,
+      "edge_density": 0.26
+    },
+    {
+      "id": 101,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 152,
+        "y": 249,
+        "w": 8,
+        "h": 10
+      },
+      "area": 80,
+      "norm_area": 0.00020833333333333335,
+      "aspect_ratio": 0.8,
+      "centroid": {
+        "x": 0.1625,
+        "y": 0.635
+      },
+      "mean_intensity": 26.575,
+      "edge_density": 0.4375
+    },
+    {
+      "id": 102,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 63,
+        "y": 243,
+        "w": 25,
+        "h": 23
+      },
+      "area": 575,
+      "norm_area": 0.0014973958333333334,
+      "aspect_ratio": 1.0869565217391304,
+      "centroid": {
+        "x": 0.07864583333333333,
+        "y": 0.63625
+      },
+      "mean_intensity": 21.76,
+      "edge_density": 0.2817391304347826
+    },
+    {
+      "id": 103,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 480,
+        "y": 242,
+        "w": 21,
+        "h": 17
+      },
+      "area": 357,
+      "norm_area": 0.0009296875,
+      "aspect_ratio": 1.2352941176470589,
+      "centroid": {
+        "x": 0.5109375,
+        "y": 0.62625
+      },
+      "mean_intensity": 8.641456582633053,
+      "edge_density": 0.2549019607843137
+    },
+    {
+      "id": 104,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 318,
+        "y": 212,
+        "w": 87,
+        "h": 56
+      },
+      "area": 4872,
+      "norm_area": 0.0126875,
+      "aspect_ratio": 1.5535714285714286,
+      "centroid": {
+        "x": 0.3765625,
+        "y": 0.6
+      },
+      "mean_intensity": 12.922824302134647,
+      "edge_density": 0.16276683087027916
+    },
+    {
+      "id": 105,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 534,
+        "y": 234,
+        "w": 23,
+        "h": 25
+      },
+      "area": 575,
+      "norm_area": 0.0014973958333333334,
+      "aspect_ratio": 0.92,
+      "centroid": {
+        "x": 0.5682291666666667,
+        "y": 0.61625
+      },
+      "mean_intensity": 23.410434782608696,
+      "edge_density": 0.2956521739130435
+    },
+    {
+      "id": 106,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 80,
+        "y": 226,
+        "w": 55,
+        "h": 32
+      },
+      "area": 1760,
+      "norm_area": 0.004583333333333333,
+      "aspect_ratio": 1.71875,
+      "centroid": {
+        "x": 0.11197916666666667,
+        "y": 0.605
+      },
+      "mean_intensity": 22.630113636363635,
+      "edge_density": 0.2596590909090909
+    },
+    {
+      "id": 107,
+      "category": "MISC",
+      "bbox": {
+        "x": 562,
+        "y": 242,
+        "w": 13,
+        "h": 21
+      },
+      "area": 273,
+      "norm_area": 0.0007109375,
+      "aspect_ratio": 0.6190476190476191,
+      "centroid": {
+        "x": 0.5921875,
+        "y": 0.63125
+      },
+      "mean_intensity": 50.13919413919414,
+      "edge_density": 0.304029304029304
+    },
+    {
+      "id": 108,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 627,
+        "y": 221,
+        "w": 30,
+        "h": 34
+      },
+      "area": 1020,
+      "norm_area": 0.00265625,
+      "aspect_ratio": 0.8823529411764706,
+      "centroid": {
+        "x": 0.66875,
+        "y": 0.595
+      },
+      "mean_intensity": 22.73627450980392,
+      "edge_density": 0.22156862745098038
+    },
+    {
+      "id": 109,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 259,
+        "y": 241,
+        "w": 6,
+        "h": 11
+      },
+      "area": 66,
+      "norm_area": 0.000171875,
+      "aspect_ratio": 0.5454545454545454,
+      "centroid": {
+        "x": 0.27291666666666664,
+        "y": 0.61625
+      },
+      "mean_intensity": 46.43939393939394,
+      "edge_density": 0.42424242424242425
+    },
+    {
+      "id": 110,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 659,
+        "y": 222,
+        "w": 22,
+        "h": 23
+      },
+      "area": 506,
+      "norm_area": 0.0013177083333333333,
+      "aspect_ratio": 0.9565217391304348,
+      "centroid": {
+        "x": 0.6979166666666666,
+        "y": 0.58375
+      },
+      "mean_intensity": 24.83399209486166,
+      "edge_density": 0.2865612648221344
+    },
+    {
+      "id": 111,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 381,
+        "y": 240,
+        "w": 14,
+        "h": 5
+      },
+      "area": 70,
+      "norm_area": 0.00018229166666666667,
+      "aspect_ratio": 2.8,
+      "centroid": {
+        "x": 0.4041666666666667,
+        "y": 0.60625
+      },
+      "mean_intensity": 30.257142857142856,
+      "edge_density": 0.4714285714285714
+    },
+    {
+      "id": 112,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 451,
+        "y": 238,
+        "w": 8,
+        "h": 7
+      },
+      "area": 56,
+      "norm_area": 0.00014583333333333335,
+      "aspect_ratio": 1.1428571428571428,
+      "centroid": {
+        "x": 0.4739583333333333,
+        "y": 0.60375
+      },
+      "mean_intensity": 35.910714285714285,
+      "edge_density": 0.375
+    },
+    {
+      "id": 113,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 706,
+        "y": 235,
+        "w": 25,
+        "h": 19
+      },
+      "area": 475,
+      "norm_area": 0.0012369791666666666,
+      "aspect_ratio": 1.3157894736842106,
+      "centroid": {
+        "x": 0.7484375,
+        "y": 0.61125
+      },
+      "mean_intensity": 43.66947368421052,
+      "edge_density": 0.27789473684210525
+    },
+    {
+      "id": 114,
+      "category": "MISC",
+      "bbox": {
+        "x": 511,
+        "y": 235,
+        "w": 16,
+        "h": 9
+      },
+      "area": 144,
+      "norm_area": 0.000375,
+      "aspect_ratio": 1.7777777777777777,
+      "centroid": {
+        "x": 0.540625,
+        "y": 0.59875
+      },
+      "mean_intensity": 23.67361111111111,
+      "edge_density": 0.3055555555555556
+    },
+    {
+      "id": 115,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 22,
+        "y": 219,
+        "w": 24,
+        "h": 33
+      },
+      "area": 792,
+      "norm_area": 0.0020625,
+      "aspect_ratio": 0.7272727272727273,
+      "centroid": {
+        "x": 0.035416666666666666,
+        "y": 0.58875
+      },
+      "mean_intensity": 21.143939393939394,
+      "edge_density": 0.273989898989899
+    },
+    {
+      "id": 116,
+      "category": "MISC",
+      "bbox": {
+        "x": 753,
+        "y": 223,
+        "w": 33,
+        "h": 20
+      },
+      "area": 660,
+      "norm_area": 0.00171875,
+      "aspect_ratio": 1.65,
+      "centroid": {
+        "x": 0.8015625,
+        "y": 0.5825
+      },
+      "mean_intensity": 32.092424242424244,
+      "edge_density": 0.3151515151515151
+    },
+    {
+      "id": 117,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 53,
+        "y": 212,
+        "w": 53,
+        "h": 29
+      },
+      "area": 1537,
+      "norm_area": 0.0040026041666666665,
+      "aspect_ratio": 1.8275862068965518,
+      "centroid": {
+        "x": 0.0828125,
+        "y": 0.56625
+      },
+      "mean_intensity": 26.811971372804162,
+      "edge_density": 0.28822381262199087
+    },
+    {
+      "id": 118,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 871,
+        "y": 206,
+        "w": 32,
+        "h": 34
+      },
+      "area": 1088,
+      "norm_area": 0.0028333333333333335,
+      "aspect_ratio": 0.9411764705882353,
+      "centroid": {
+        "x": 0.9239583333333333,
+        "y": 0.5575
+      },
+      "mean_intensity": 35.23069852941177,
+      "edge_density": 0.32536764705882354
+    },
+    {
+      "id": 119,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 173,
+        "y": 221,
+        "w": 20,
+        "h": 18
+      },
+      "area": 360,
+      "norm_area": 0.0009375,
+      "aspect_ratio": 1.1111111111111112,
+      "centroid": {
+        "x": 0.190625,
+        "y": 0.575
+      },
+      "mean_intensity": 20.725,
+      "edge_density": 0.23333333333333334
+    },
+    {
+      "id": 120,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 145,
+        "y": 215,
+        "w": 29,
+        "h": 30
+      },
+      "area": 870,
+      "norm_area": 0.002265625,
+      "aspect_ratio": 0.9666666666666667,
+      "centroid": {
+        "x": 0.16614583333333333,
+        "y": 0.575
+      },
+      "mean_intensity": 23.8183908045977,
+      "edge_density": 0.27241379310344827
+    },
+    {
+      "id": 121,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 797,
+        "y": 212,
+        "w": 37,
+        "h": 31
+      },
+      "area": 1147,
+      "norm_area": 0.002986979166666667,
+      "aspect_ratio": 1.1935483870967742,
+      "centroid": {
+        "x": 0.8494791666666667,
+        "y": 0.56875
+      },
+      "mean_intensity": 25.361813426329554,
+      "edge_density": 0.25544899738448124
+    },
+    {
+      "id": 122,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 694,
+        "y": 224,
+        "w": 19,
+        "h": 7
+      },
+      "area": 133,
+      "norm_area": 0.0003463541666666667,
+      "aspect_ratio": 2.7142857142857144,
+      "centroid": {
+        "x": 0.7328125,
+        "y": 0.56875
+      },
+      "mean_intensity": 48.72932330827068,
+      "edge_density": 0.5488721804511278
+    },
+    {
+      "id": 123,
+      "category": "MISC",
+      "bbox": {
+        "x": 571,
+        "y": 223,
+        "w": 36,
+        "h": 16
+      },
+      "area": 576,
+      "norm_area": 0.0015,
+      "aspect_ratio": 2.25,
+      "centroid": {
+        "x": 0.6135416666666667,
+        "y": 0.5775
+      },
+      "mean_intensity": 30.87326388888889,
+      "edge_density": 0.3055555555555556
+    },
+    {
+      "id": 124,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 302,
+        "y": 215,
+        "w": 11,
+        "h": 12
+      },
+      "area": 132,
+      "norm_area": 0.00034375,
+      "aspect_ratio": 0.9166666666666666,
+      "centroid": {
+        "x": 0.3203125,
+        "y": 0.5525
+      },
+      "mean_intensity": 35.78030303030303,
+      "edge_density": 0.4393939393939394
+    },
+    {
+      "id": 125,
+      "category": "MISC",
+      "bbox": {
+        "x": 31,
+        "y": 207,
+        "w": 41,
+        "h": 23
+      },
+      "area": 943,
+      "norm_area": 0.002455729166666667,
+      "aspect_ratio": 1.7826086956521738,
+      "centroid": {
+        "x": 0.05364583333333333,
+        "y": 0.54625
+      },
+      "mean_intensity": 26.26086956521739,
+      "edge_density": 0.28207847295864263
+    },
+    {
+      "id": 126,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 553,
+        "y": 196,
+        "w": 10,
+        "h": 32
+      },
+      "area": 320,
+      "norm_area": 0.0008333333333333334,
+      "aspect_ratio": 0.3125,
+      "centroid": {
+        "x": 0.58125,
+        "y": 0.53
+      },
+      "mean_intensity": 9.9375,
+      "edge_density": 0.21875
+    },
+    {
+      "id": 127,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 919,
+        "y": 204,
+        "w": 28,
+        "h": 33
+      },
+      "area": 924,
+      "norm_area": 0.00240625,
+      "aspect_ratio": 0.8484848484848485,
+      "centroid": {
+        "x": 0.971875,
+        "y": 0.55125
+      },
+      "mean_intensity": 23.323593073593074,
+      "edge_density": 0.2597402597402597
+    },
+    {
+      "id": 128,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 720,
+        "y": 202,
+        "w": 27,
+        "h": 27
+      },
+      "area": 729,
+      "norm_area": 0.0018984375,
+      "aspect_ratio": 1.0,
+      "centroid": {
+        "x": 0.7640625,
+        "y": 0.53875
+      },
+      "mean_intensity": 23.89849108367627,
+      "edge_density": 0.2962962962962963
+    },
+    {
+      "id": 129,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 91,
+        "y": 196,
+        "w": 56,
+        "h": 29
+      },
+      "area": 1624,
+      "norm_area": 0.004229166666666667,
+      "aspect_ratio": 1.9310344827586208,
+      "centroid": {
+        "x": 0.12395833333333334,
+        "y": 0.52625
+      },
+      "mean_intensity": 21.17118226600985,
+      "edge_density": 0.2616995073891626
+    },
+    {
+      "id": 130,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 670,
+        "y": 208,
+        "w": 20,
+        "h": 23
+      },
+      "area": 460,
+      "norm_area": 0.0011979166666666666,
+      "aspect_ratio": 0.8695652173913043,
+      "centroid": {
+        "x": 0.7083333333333334,
+        "y": 0.54875
+      },
+      "mean_intensity": 31.11521739130435,
+      "edge_density": 0.3717391304347826
+    },
+    {
+      "id": 131,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 581,
+        "y": 166,
+        "w": 82,
+        "h": 55
+      },
+      "area": 4510,
+      "norm_area": 0.011744791666666667,
+      "aspect_ratio": 1.490909090909091,
+      "centroid": {
+        "x": 0.6479166666666667,
+        "y": 0.48375
+      },
+      "mean_intensity": 14.722616407982262,
+      "edge_density": 0.158980044345898
+    },
+    {
+      "id": 132,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 428,
+        "y": 191,
+        "w": 10,
+        "h": 36
+      },
+      "area": 360,
+      "norm_area": 0.0009375,
+      "aspect_ratio": 0.2777777777777778,
+      "centroid": {
+        "x": 0.4510416666666667,
+        "y": 0.5225
+      },
+      "mean_intensity": 13.46111111111111,
+      "edge_density": 0.3388888888888889
+    },
+    {
+      "id": 133,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 776,
+        "y": 212,
+        "w": 8,
+        "h": 7
+      },
+      "area": 56,
+      "norm_area": 0.00014583333333333335,
+      "aspect_ratio": 1.1428571428571428,
+      "centroid": {
+        "x": 0.8125,
+        "y": 0.53875
+      },
+      "mean_intensity": 31.767857142857142,
+      "edge_density": 0.4107142857142857
+    },
+    {
+      "id": 134,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 167,
+        "y": 202,
+        "w": 44,
+        "h": 16
+      },
+      "area": 704,
+      "norm_area": 0.0018333333333333333,
+      "aspect_ratio": 2.75,
+      "centroid": {
+        "x": 0.196875,
+        "y": 0.525
+      },
+      "mean_intensity": 33.80681818181818,
+      "edge_density": 0.34801136363636365
+    },
+    {
+      "id": 135,
+      "category": "MISC",
+      "bbox": {
+        "x": 146,
+        "y": 202,
+        "w": 27,
+        "h": 17
+      },
+      "area": 459,
+      "norm_area": 0.0011953125,
+      "aspect_ratio": 1.588235294117647,
+      "centroid": {
+        "x": 0.16614583333333333,
+        "y": 0.52625
+      },
+      "mean_intensity": 33.40087145969499,
+      "edge_density": 0.289760348583878
+    },
+    {
+      "id": 136,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 833,
+        "y": 169,
+        "w": 45,
+        "h": 72
+      },
+      "area": 3240,
+      "norm_area": 0.0084375,
+      "aspect_ratio": 0.625,
+      "centroid": {
+        "x": 0.8911458333333333,
+        "y": 0.5125
+      },
+      "mean_intensity": 30.61543209876543,
+      "edge_density": 0.3197530864197531
+    },
+    {
+      "id": 137,
+      "category": "MISC",
+      "bbox": {
+        "x": 568,
+        "y": 203,
+        "w": 22,
+        "h": 14
+      },
+      "area": 308,
+      "norm_area": 0.0008020833333333334,
+      "aspect_ratio": 1.5714285714285714,
+      "centroid": {
+        "x": 0.603125,
+        "y": 0.525
+      },
+      "mean_intensity": 20.886363636363637,
+      "edge_density": 0.2532467532467532
+    },
+    {
+      "id": 138,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 61,
+        "y": 193,
+        "w": 29,
+        "h": 21
+      },
+      "area": 609,
+      "norm_area": 0.0015859375,
+      "aspect_ratio": 1.380952380952381,
+      "centroid": {
+        "x": 0.07864583333333333,
+        "y": 0.50875
+      },
+      "mean_intensity": 16.45977011494253,
+      "edge_density": 0.24794745484400657
+    },
+    {
+      "id": 139,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 867,
+        "y": 178,
+        "w": 25,
+        "h": 30
+      },
+      "area": 750,
+      "norm_area": 0.001953125,
+      "aspect_ratio": 0.8333333333333334,
+      "centroid": {
+        "x": 0.9161458333333333,
+        "y": 0.4825
+      },
+      "mean_intensity": 24.868,
+      "edge_density": 0.312
+    },
+    {
+      "id": 140,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 452,
+        "y": 153,
+        "w": 74,
+        "h": 81
+      },
+      "area": 5994,
+      "norm_area": 0.015609375,
+      "aspect_ratio": 0.9135802469135802,
+      "centroid": {
+        "x": 0.509375,
+        "y": 0.48375
+      },
+      "mean_intensity": 9.561728395061728,
+      "edge_density": 0.11194527861194528
+    },
+    {
+      "id": 141,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 814,
+        "y": 191,
+        "w": 20,
+        "h": 21
+      },
+      "area": 420,
+      "norm_area": 0.00109375,
+      "aspect_ratio": 0.9523809523809523,
+      "centroid": {
+        "x": 0.8583333333333333,
+        "y": 0.50375
+      },
+      "mean_intensity": 20.107142857142858,
+      "edge_density": 0.2357142857142857
+    },
+    {
+      "id": 142,
+      "category": "MISC",
+      "bbox": {
+        "x": 691,
+        "y": 200,
+        "w": 19,
+        "h": 10
+      },
+      "area": 190,
+      "norm_area": 0.0004947916666666667,
+      "aspect_ratio": 1.9,
+      "centroid": {
+        "x": 0.7296875,
+        "y": 0.5125
+      },
+      "mean_intensity": 35.66315789473684,
+      "edge_density": 0.3736842105263158
+    },
+    {
+      "id": 143,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 120,
+        "y": 185,
+        "w": 21,
+        "h": 25
+      },
+      "area": 525,
+      "norm_area": 0.0013671875,
+      "aspect_ratio": 0.84,
+      "centroid": {
+        "x": 0.1359375,
+        "y": 0.49375
+      },
+      "mean_intensity": 19.074285714285715,
+      "edge_density": 0.22666666666666666
+    },
+    {
+      "id": 144,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 400,
+        "y": 196,
+        "w": 26,
+        "h": 33
+      },
+      "area": 858,
+      "norm_area": 0.002234375,
+      "aspect_ratio": 0.7878787878787878,
+      "centroid": {
+        "x": 0.43020833333333336,
+        "y": 0.53125
+      },
+      "mean_intensity": 10.687645687645688,
+      "edge_density": 0.12937062937062938
+    },
+    {
+      "id": 145,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 713,
+        "y": 183,
+        "w": 42,
+        "h": 25
+      },
+      "area": 1050,
+      "norm_area": 0.002734375,
+      "aspect_ratio": 1.68,
+      "centroid": {
+        "x": 0.7645833333333333,
+        "y": 0.48875
+      },
+      "mean_intensity": 24.264761904761905,
+      "edge_density": 0.3047619047619048
+    },
+    {
+      "id": 146,
+      "category": "MISC",
+      "bbox": {
+        "x": 855,
+        "y": 192,
+        "w": 19,
+        "h": 9
+      },
+      "area": 171,
+      "norm_area": 0.0004453125,
+      "aspect_ratio": 2.111111111111111,
+      "centroid": {
+        "x": 0.9005208333333333,
+        "y": 0.49125
+      },
+      "mean_intensity": 45.56140350877193,
+      "edge_density": 0.3567251461988304
+    },
+    {
+      "id": 147,
+      "category": "MISC",
+      "bbox": {
+        "x": 179,
+        "y": 175,
+        "w": 13,
+        "h": 27
+      },
+      "area": 351,
+      "norm_area": 0.0009140625,
+      "aspect_ratio": 0.48148148148148145,
+      "centroid": {
+        "x": 0.19322916666666667,
+        "y": 0.47125
+      },
+      "mean_intensity": 27.558404558404558,
+      "edge_density": 0.20512820512820512
+    },
+    {
+      "id": 148,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 297,
+        "y": 185,
+        "w": 25,
+        "h": 26
+      },
+      "area": 650,
+      "norm_area": 0.0016927083333333334,
+      "aspect_ratio": 0.9615384615384616,
+      "centroid": {
+        "x": 0.3223958333333333,
+        "y": 0.495
+      },
+      "mean_intensity": 21.970769230769232,
+      "edge_density": 0.29846153846153844
+    },
+    {
+      "id": 149,
+      "category": "MISC",
+      "bbox": {
+        "x": 478,
+        "y": 179,
+        "w": 44,
+        "h": 18
+      },
+      "area": 792,
+      "norm_area": 0.0020625,
+      "aspect_ratio": 2.4444444444444446,
+      "centroid": {
+        "x": 0.5208333333333334,
+        "y": 0.47
+      },
+      "mean_intensity": 21.108585858585858,
+      "edge_density": 0.31313131313131315
+    },
+    {
+      "id": 150,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 278,
+        "y": 190,
+        "w": 6,
+        "h": 16
+      },
+      "area": 96,
+      "norm_area": 0.00025,
+      "aspect_ratio": 0.375,
+      "centroid": {
+        "x": 0.29270833333333335,
+        "y": 0.495
+      },
+      "mean_intensity": 29.791666666666668,
+      "edge_density": 0.4166666666666667
+    },
+    {
+      "id": 151,
+      "category": "MISC",
+      "bbox": {
+        "x": 901,
+        "y": 175,
+        "w": 40,
+        "h": 20
+      },
+      "area": 800,
+      "norm_area": 0.0020833333333333333,
+      "aspect_ratio": 2.0,
+      "centroid": {
+        "x": 0.959375,
+        "y": 0.4625
+      },
+      "mean_intensity": 24.5875,
+      "edge_density": 0.30625
+    },
+    {
+      "id": 152,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 742,
+        "y": 175,
+        "w": 36,
+        "h": 26
+      },
+      "area": 936,
+      "norm_area": 0.0024375,
+      "aspect_ratio": 1.3846153846153846,
+      "centroid": {
+        "x": 0.7916666666666666,
+        "y": 0.47
+      },
+      "mean_intensity": 23.492521367521366,
+      "edge_density": 0.27884615384615385
+    },
+    {
+      "id": 153,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 659,
+        "y": 171,
+        "w": 53,
+        "h": 32
+      },
+      "area": 1696,
+      "norm_area": 0.004416666666666667,
+      "aspect_ratio": 1.65625,
+      "centroid": {
+        "x": 0.7140625,
+        "y": 0.4675
+      },
+      "mean_intensity": 20.882075471698112,
+      "edge_density": 0.26297169811320753
+    },
+    {
+      "id": 154,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 803,
+        "y": 162,
+        "w": 28,
+        "h": 29
+      },
+      "area": 812,
+      "norm_area": 0.0021145833333333333,
+      "aspect_ratio": 0.9655172413793104,
+      "centroid": {
+        "x": 0.8510416666666667,
+        "y": 0.44125
+      },
+      "mean_intensity": 23.9371921182266,
+      "edge_density": 0.2733990147783251
+    },
+    {
+      "id": 155,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 343,
+        "y": 169,
+        "w": 44,
+        "h": 28
+      },
+      "area": 1232,
+      "norm_area": 0.0032083333333333334,
+      "aspect_ratio": 1.5714285714285714,
+      "centroid": {
+        "x": 0.3802083333333333,
+        "y": 0.4575
+      },
+      "mean_intensity": 13.752435064935066,
+      "edge_density": 0.21915584415584416
+    },
+    {
+      "id": 156,
+      "category": "MISC",
+      "bbox": {
+        "x": 231,
+        "y": 185,
+        "w": 18,
+        "h": 38
+      },
+      "area": 684,
+      "norm_area": 0.00178125,
+      "aspect_ratio": 0.47368421052631576,
+      "centroid": {
+        "x": 0.25,
+        "y": 0.51
+      },
+      "mean_intensity": 40.81140350877193,
+      "edge_density": 0.30701754385964913
+    },
+    {
+      "id": 157,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 98,
+        "y": 160,
+        "w": 33,
+        "h": 36
+      },
+      "area": 1188,
+      "norm_area": 0.00309375,
+      "aspect_ratio": 0.9166666666666666,
+      "centroid": {
+        "x": 0.11927083333333334,
+        "y": 0.445
+      },
+      "mean_intensity": 26.776094276094277,
+      "edge_density": 0.3493265993265993
+    },
+    {
+      "id": 158,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 29,
+        "y": 169,
+        "w": 40,
+        "h": 31
+      },
+      "area": 1240,
+      "norm_area": 0.0032291666666666666,
+      "aspect_ratio": 1.2903225806451613,
+      "centroid": {
+        "x": 0.051041666666666666,
+        "y": 0.46125
+      },
+      "mean_intensity": 25.493548387096773,
+      "edge_density": 0.2693548387096774
+    },
+    {
+      "id": 159,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 833,
+        "y": 181,
+        "w": 8,
+        "h": 11
+      },
+      "area": 88,
+      "norm_area": 0.00022916666666666666,
+      "aspect_ratio": 0.7272727272727273,
+      "centroid": {
+        "x": 0.871875,
+        "y": 0.46625
+      },
+      "mean_intensity": 37.39772727272727,
+      "edge_density": 0.4318181818181818
+    },
+    {
+      "id": 160,
+      "category": "MISC",
+      "bbox": {
+        "x": 609,
+        "y": 173,
+        "w": 31,
+        "h": 21
+      },
+      "area": 651,
+      "norm_area": 0.0016953125,
+      "aspect_ratio": 1.4761904761904763,
+      "centroid": {
+        "x": 0.6505208333333333,
+        "y": 0.45875
+      },
+      "mean_intensity": 30.97542242703533,
+      "edge_density": 0.29493087557603687
+    },
+    {
+      "id": 161,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 287,
+        "y": 157,
+        "w": 36,
+        "h": 30
+      },
+      "area": 1080,
+      "norm_area": 0.0028125,
+      "aspect_ratio": 1.2,
+      "centroid": {
+        "x": 0.3177083333333333,
+        "y": 0.43
+      },
+      "mean_intensity": 16.65648148148148,
+      "edge_density": 0.2074074074074074
+    },
+    {
+      "id": 162,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 875,
+        "y": 95,
+        "w": 69,
+        "h": 104
+      },
+      "area": 7176,
+      "norm_area": 0.0186875,
+      "aspect_ratio": 0.6634615384615384,
+      "centroid": {
+        "x": 0.9473958333333333,
+        "y": 0.3675
+      },
+      "mean_intensity": 22.672798216276476,
+      "edge_density": 0.2403846153846154
+    },
+    {
+      "id": 163,
+      "category": "MISC",
+      "bbox": {
+        "x": 780,
+        "y": 163,
+        "w": 20,
+        "h": 32
+      },
+      "area": 640,
+      "norm_area": 0.0016666666666666668,
+      "aspect_ratio": 0.625,
+      "centroid": {
+        "x": 0.8229166666666666,
+        "y": 0.4475
+      },
+      "mean_intensity": 28.265625,
+      "edge_density": 0.30625
+    },
+    {
+      "id": 164,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 68,
+        "y": 155,
+        "w": 28,
+        "h": 27
+      },
+      "area": 756,
+      "norm_area": 0.00196875,
+      "aspect_ratio": 1.037037037037037,
+      "centroid": {
+        "x": 0.08541666666666667,
+        "y": 0.42125
+      },
+      "mean_intensity": 28.1984126984127,
+      "edge_density": 0.294973544973545
+    },
+    {
+      "id": 165,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 419,
+        "y": 151,
+        "w": 35,
+        "h": 43
+      },
+      "area": 1505,
+      "norm_area": 0.003919270833333334,
+      "aspect_ratio": 0.813953488372093,
+      "centroid": {
+        "x": 0.4546875,
+        "y": 0.43125
+      },
+      "mean_intensity": 19.711627906976744,
+      "edge_density": 0.21395348837209302
+    },
+    {
+      "id": 166,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 715,
+        "y": 121,
+        "w": 74,
+        "h": 60
+      },
+      "area": 4440,
+      "norm_area": 0.0115625,
+      "aspect_ratio": 1.2333333333333334,
+      "centroid": {
+        "x": 0.7833333333333333,
+        "y": 0.3775
+      },
+      "mean_intensity": 22.22454954954955,
+      "edge_density": 0.22702702702702704
+    },
+    {
+      "id": 167,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 530,
+        "y": 132,
+        "w": 46,
+        "h": 68
+      },
+      "area": 3128,
+      "norm_area": 0.008145833333333333,
+      "aspect_ratio": 0.6764705882352942,
+      "centroid": {
+        "x": 0.5760416666666667,
+        "y": 0.415
+      },
+      "mean_intensity": 12.942455242966751,
+      "edge_density": 0.19149616368286446
+    },
+    {
+      "id": 168,
+      "category": "MISC",
+      "bbox": {
+        "x": 935,
+        "y": 167,
+        "w": 25,
+        "h": 70
+      },
+      "area": 1750,
+      "norm_area": 0.004557291666666667,
+      "aspect_ratio": 0.35714285714285715,
+      "centroid": {
+        "x": 0.9869791666666666,
+        "y": 0.505
+      },
+      "mean_intensity": 14.710285714285714,
+      "edge_density": 0.19428571428571428
+    },
+    {
+      "id": 169,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 918,
+        "y": 167,
+        "w": 8,
+        "h": 8
+      },
+      "area": 64,
+      "norm_area": 0.00016666666666666666,
+      "aspect_ratio": 1.0,
+      "centroid": {
+        "x": 0.9604166666666667,
+        "y": 0.4275
+      },
+      "mean_intensity": 70.609375,
+      "edge_density": 0.28125
+    },
+    {
+      "id": 170,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 196,
+        "y": 151,
+        "w": 29,
+        "h": 28
+      },
+      "area": 812,
+      "norm_area": 0.0021145833333333333,
+      "aspect_ratio": 1.0357142857142858,
+      "centroid": {
+        "x": 0.21927083333333333,
+        "y": 0.4125
+      },
+      "mean_intensity": 26.647783251231527,
+      "edge_density": 0.3226600985221675
+    },
+    {
+      "id": 171,
+      "category": "MISC",
+      "bbox": {
+        "x": 814,
+        "y": 153,
+        "w": 78,
+        "h": 31
+      },
+      "area": 2418,
+      "norm_area": 0.006296875,
+      "aspect_ratio": 2.5161290322580645,
+      "centroid": {
+        "x": 0.8885416666666667,
+        "y": 0.42125
+      },
+      "mean_intensity": 24.840363937138132,
+      "edge_density": 0.3271298593879239
+    },
+    {
+      "id": 172,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 580,
+        "y": 143,
+        "w": 23,
+        "h": 32
+      },
+      "area": 736,
+      "norm_area": 0.0019166666666666666,
+      "aspect_ratio": 0.71875,
+      "centroid": {
+        "x": 0.6161458333333333,
+        "y": 0.3975
+      },
+      "mean_intensity": 25.277173913043477,
+      "edge_density": 0.264945652173913
+    },
+    {
+      "id": 173,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 120,
+        "y": 152,
+        "w": 30,
+        "h": 23
+      },
+      "area": 690,
+      "norm_area": 0.001796875,
+      "aspect_ratio": 1.3043478260869565,
+      "centroid": {
+        "x": 0.140625,
+        "y": 0.40875
+      },
+      "mean_intensity": 24.405797101449274,
+      "edge_density": 0.2971014492753623
+    },
+    {
+      "id": 174,
+      "category": "MISC",
+      "bbox": {
+        "x": 681,
+        "y": 153,
+        "w": 37,
+        "h": 20
+      },
+      "area": 740,
+      "norm_area": 0.0019270833333333334,
+      "aspect_ratio": 1.85,
+      "centroid": {
+        "x": 0.7286458333333333,
+        "y": 0.4075
+      },
+      "mean_intensity": 23.455405405405404,
+      "edge_density": 0.2716216216216216
+    },
+    {
+      "id": 175,
+      "category": "MISC",
+      "bbox": {
+        "x": 258,
+        "y": 162,
+        "w": 14,
+        "h": 9
+      },
+      "area": 126,
+      "norm_area": 0.000328125,
+      "aspect_ratio": 1.5555555555555556,
+      "centroid": {
+        "x": 0.2760416666666667,
+        "y": 0.41625
+      },
+      "mean_intensity": 43.785714285714285,
+      "edge_density": 0.4126984126984127
+    },
+    {
+      "id": 176,
+      "category": "MISC",
+      "bbox": {
+        "x": 213,
+        "y": 152,
+        "w": 35,
+        "h": 20
+      },
+      "area": 700,
+      "norm_area": 0.0018229166666666667,
+      "aspect_ratio": 1.75,
+      "centroid": {
+        "x": 0.24010416666666667,
+        "y": 0.405
+      },
+      "mean_intensity": 25.872857142857143,
+      "edge_density": 0.32
+    },
+    {
+      "id": 177,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 8,
+        "y": 145,
+        "w": 35,
+        "h": 69
+      },
+      "area": 2415,
+      "norm_area": 0.0062890625,
+      "aspect_ratio": 0.5072463768115942,
+      "centroid": {
+        "x": 0.0265625,
+        "y": 0.44875
+      },
+      "mean_intensity": 18.415734989648033,
+      "edge_density": 0.24679089026915113
+    },
+    {
+      "id": 178,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 794,
+        "y": 159,
+        "w": 10,
+        "h": 8
+      },
+      "area": 80,
+      "norm_area": 0.00020833333333333335,
+      "aspect_ratio": 1.25,
+      "centroid": {
+        "x": 0.8322916666666667,
+        "y": 0.4075
+      },
+      "mean_intensity": 18.975,
+      "edge_density": 0.3125
+    },
+    {
+      "id": 179,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 855,
+        "y": 137,
+        "w": 59,
+        "h": 26
+      },
+      "area": 1534,
+      "norm_area": 0.0039947916666666665,
+      "aspect_ratio": 2.269230769230769,
+      "centroid": {
+        "x": 0.9213541666666667,
+        "y": 0.375
+      },
+      "mean_intensity": 25.352672750977835,
+      "edge_density": 0.29139504563233376
+    },
+    {
+      "id": 180,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 144,
+        "y": 146,
+        "w": 38,
+        "h": 14
+      },
+      "area": 532,
+      "norm_area": 0.0013854166666666667,
+      "aspect_ratio": 2.7142857142857144,
+      "centroid": {
+        "x": 0.16979166666666667,
+        "y": 0.3825
+      },
+      "mean_intensity": 21.851503759398497,
+      "edge_density": 0.2631578947368421
+    },
+    {
+      "id": 181,
+      "category": "MISC",
+      "bbox": {
+        "x": 83,
+        "y": 140,
+        "w": 38,
+        "h": 23
+      },
+      "area": 874,
+      "norm_area": 0.0022760416666666667,
+      "aspect_ratio": 1.6521739130434783,
+      "centroid": {
+        "x": 0.10625,
+        "y": 0.37875
+      },
+      "mean_intensity": 27.18649885583524,
+      "edge_density": 0.2723112128146453
+    },
+    {
+      "id": 182,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 7,
+        "y": 139,
+        "w": 23,
+        "h": 20
+      },
+      "area": 460,
+      "norm_area": 0.0011979166666666666,
+      "aspect_ratio": 1.15,
+      "centroid": {
+        "x": 0.019270833333333334,
+        "y": 0.3725
+      },
+      "mean_intensity": 23.458695652173912,
+      "edge_density": 0.3565217391304348
+    },
+    {
+      "id": 183,
+      "category": "MISC",
+      "bbox": {
+        "x": 601,
+        "y": 142,
+        "w": 16,
+        "h": 23
+      },
+      "area": 368,
+      "norm_area": 0.0009583333333333333,
+      "aspect_ratio": 0.6956521739130435,
+      "centroid": {
+        "x": 0.634375,
+        "y": 0.38375
+      },
+      "mean_intensity": 34.328804347826086,
+      "edge_density": 0.3233695652173913
+    },
+    {
+      "id": 184,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 32,
+        "y": 103,
+        "w": 51,
+        "h": 62
+      },
+      "area": 3162,
+      "norm_area": 0.008234375,
+      "aspect_ratio": 0.8225806451612904,
+      "centroid": {
+        "x": 0.059895833333333336,
+        "y": 0.335
+      },
+      "mean_intensity": 12.681846932321315,
+      "edge_density": 0.21948134092346616
+    },
+    {
+      "id": 185,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 635,
+        "y": 135,
+        "w": 41,
+        "h": 25
+      },
+      "area": 1025,
+      "norm_area": 0.0026692708333333334,
+      "aspect_ratio": 1.64,
+      "centroid": {
+        "x": 0.6828125,
+        "y": 0.36875
+      },
+      "mean_intensity": 22.964878048780488,
+      "edge_density": 0.2673170731707317
+    },
+    {
+      "id": 186,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 487,
+        "y": 128,
+        "w": 23,
+        "h": 25
+      },
+      "area": 575,
+      "norm_area": 0.0014973958333333334,
+      "aspect_ratio": 0.92,
+      "centroid": {
+        "x": 0.5192708333333333,
+        "y": 0.35125
+      },
+      "mean_intensity": 9.925217391304347,
+      "edge_density": 0.2678260869565217
+    },
+    {
+      "id": 187,
+      "category": "MISC",
+      "bbox": {
+        "x": 815,
+        "y": 135,
+        "w": 45,
+        "h": 19
+      },
+      "area": 855,
+      "norm_area": 0.0022265625,
+      "aspect_ratio": 2.3684210526315788,
+      "centroid": {
+        "x": 0.8723958333333334,
+        "y": 0.36125
+      },
+      "mean_intensity": 22.810526315789474,
+      "edge_density": 0.34269005847953216
+    },
+    {
+      "id": 188,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 550,
+        "y": 135,
+        "w": 30,
+        "h": 26
+      },
+      "area": 780,
+      "norm_area": 0.00203125,
+      "aspect_ratio": 1.1538461538461537,
+      "centroid": {
+        "x": 0.5885416666666666,
+        "y": 0.37
+      },
+      "mean_intensity": 25.08974358974359,
+      "edge_density": 0.29743589743589743
+    },
+    {
+      "id": 189,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 512,
+        "y": 124,
+        "w": 21,
+        "h": 29
+      },
+      "area": 609,
+      "norm_area": 0.0015859375,
+      "aspect_ratio": 0.7241379310344828,
+      "centroid": {
+        "x": 0.5442708333333334,
+        "y": 0.34625
+      },
+      "mean_intensity": 20.336617405582924,
+      "edge_density": 0.2594417077175698
+    },
+    {
+      "id": 190,
+      "category": "MISC",
+      "bbox": {
+        "x": 448,
+        "y": 135,
+        "w": 27,
+        "h": 16
+      },
+      "area": 432,
+      "norm_area": 0.001125,
+      "aspect_ratio": 1.6875,
+      "centroid": {
+        "x": 0.48072916666666665,
+        "y": 0.3575
+      },
+      "mean_intensity": 56.192129629629626,
+      "edge_density": 0.36342592592592593
+    },
+    {
+      "id": 191,
+      "category": "MISC",
+      "bbox": {
+        "x": 418,
+        "y": 121,
+        "w": 18,
+        "h": 29
+      },
+      "area": 522,
+      "norm_area": 0.001359375,
+      "aspect_ratio": 0.6206896551724138,
+      "centroid": {
+        "x": 0.44479166666666664,
+        "y": 0.33875
+      },
+      "mean_intensity": 20.867816091954023,
+      "edge_density": 0.2988505747126437
+    },
+    {
+      "id": 192,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 541,
+        "y": 143,
+        "w": 21,
+        "h": 4
+      },
+      "area": 84,
+      "norm_area": 0.00021875,
+      "aspect_ratio": 5.25,
+      "centroid": {
+        "x": 0.5744791666666667,
+        "y": 0.3625
+      },
+      "mean_intensity": 15.511904761904763,
+      "edge_density": 0.5357142857142857
+    },
+    {
+      "id": 193,
+      "category": "MISC",
+      "bbox": {
+        "x": 851,
+        "y": 123,
+        "w": 35,
+        "h": 24
+      },
+      "area": 840,
+      "norm_area": 0.0021875,
+      "aspect_ratio": 1.4583333333333333,
+      "centroid": {
+        "x": 0.9046875,
+        "y": 0.3375
+      },
+      "mean_intensity": 23.682142857142857,
+      "edge_density": 0.2845238095238095
+    },
+    {
+      "id": 194,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 622,
+        "y": 119,
+        "w": 20,
+        "h": 27
+      },
+      "area": 540,
+      "norm_area": 0.00140625,
+      "aspect_ratio": 0.7407407407407407,
+      "centroid": {
+        "x": 0.6583333333333333,
+        "y": 0.33125
+      },
+      "mean_intensity": 22.52037037037037,
+      "edge_density": 0.30185185185185187
+    },
+    {
+      "id": 195,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 661,
+        "y": 118,
+        "w": 53,
+        "h": 29
+      },
+      "area": 1537,
+      "norm_area": 0.0040026041666666665,
+      "aspect_ratio": 1.8275862068965518,
+      "centroid": {
+        "x": 0.7161458333333334,
+        "y": 0.33125
+      },
+      "mean_intensity": 23.233571893298635,
+      "edge_density": 0.2817176317501627
+    },
+    {
+      "id": 196,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 784,
+        "y": 118,
+        "w": 32,
+        "h": 25
+      },
+      "area": 800,
+      "norm_area": 0.0020833333333333333,
+      "aspect_ratio": 1.28,
+      "centroid": {
+        "x": 0.8333333333333334,
+        "y": 0.32625
+      },
+      "mean_intensity": 25.84,
+      "edge_density": 0.325
+    },
+    {
+      "id": 197,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 569,
+        "y": 135,
+        "w": 46,
+        "h": 9
+      },
+      "area": 414,
+      "norm_area": 0.001078125,
+      "aspect_ratio": 5.111111111111111,
+      "centroid": {
+        "x": 0.6166666666666667,
+        "y": 0.34875
+      },
+      "mean_intensity": 23.804347826086957,
+      "edge_density": 0.34782608695652173
+    },
+    {
+      "id": 198,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 216,
+        "y": 134,
+        "w": 24,
+        "h": 20
+      },
+      "area": 480,
+      "norm_area": 0.00125,
+      "aspect_ratio": 1.2,
+      "centroid": {
+        "x": 0.2375,
+        "y": 0.36
+      },
+      "mean_intensity": 25.902083333333334,
+      "edge_density": 0.225
+    },
+    {
+      "id": 199,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 276,
+        "y": 133,
+        "w": 25,
+        "h": 20
+      },
+      "area": 500,
+      "norm_area": 0.0013020833333333333,
+      "aspect_ratio": 1.25,
+      "centroid": {
+        "x": 0.30052083333333335,
+        "y": 0.3575
+      },
+      "mean_intensity": 26.914,
+      "edge_density": 0.22
+    },
+    {
+      "id": 200,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 247,
+        "y": 134,
+        "w": 22,
+        "h": 19
+      },
+      "area": 418,
+      "norm_area": 0.0010885416666666667,
+      "aspect_ratio": 1.1578947368421053,
+      "centroid": {
+        "x": 0.26875,
+        "y": 0.35875
+      },
+      "mean_intensity": 30.574162679425836,
+      "edge_density": 0.2511961722488038
+    },
+    {
+      "id": 201,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 68,
+        "y": 115,
+        "w": 44,
+        "h": 37
+      },
+      "area": 1628,
+      "norm_area": 0.004239583333333333,
+      "aspect_ratio": 1.1891891891891893,
+      "centroid": {
+        "x": 0.09375,
+        "y": 0.33375
+      },
+      "mean_intensity": 19.5982800982801,
+      "edge_density": 0.26044226044226043
+    },
+    {
+      "id": 202,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 552,
+        "y": 84,
+        "w": 77,
+        "h": 50
+      },
+      "area": 3850,
+      "norm_area": 0.010026041666666667,
+      "aspect_ratio": 1.54,
+      "centroid": {
+        "x": 0.6151041666666667,
+        "y": 0.2725
+      },
+      "mean_intensity": 25.227012987012987,
+      "edge_density": 0.22935064935064936
+    },
+    {
+      "id": 203,
+      "category": "MISC",
+      "bbox": {
+        "x": 95,
+        "y": 117,
+        "w": 34,
+        "h": 21
+      },
+      "area": 714,
+      "norm_area": 0.001859375,
+      "aspect_ratio": 1.619047619047619,
+      "centroid": {
+        "x": 0.11666666666666667,
+        "y": 0.31875
+      },
+      "mean_intensity": 24.642857142857142,
+      "edge_density": 0.26330532212885155
+    },
+    {
+      "id": 204,
+      "category": "MISC",
+      "bbox": {
+        "x": 346,
+        "y": 129,
+        "w": 70,
+        "h": 23
+      },
+      "area": 1610,
+      "norm_area": 0.004192708333333333,
+      "aspect_ratio": 3.0434782608695654,
+      "centroid": {
+        "x": 0.396875,
+        "y": 0.35125
+      },
+      "mean_intensity": 29.42360248447205,
+      "edge_density": 0.331055900621118
+    },
+    {
+      "id": 205,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 500,
+        "y": 111,
+        "w": 11,
+        "h": 28
+      },
+      "area": 308,
+      "norm_area": 0.0008020833333333334,
+      "aspect_ratio": 0.39285714285714285,
+      "centroid": {
+        "x": 0.5265625,
+        "y": 0.3125
+      },
+      "mean_intensity": 32.12012987012987,
+      "edge_density": 0.32142857142857145
+    },
+    {
+      "id": 206,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 328,
+        "y": 127,
+        "w": 14,
+        "h": 19
+      },
+      "area": 266,
+      "norm_area": 0.0006927083333333334,
+      "aspect_ratio": 0.7368421052631579,
+      "centroid": {
+        "x": 0.3489583333333333,
+        "y": 0.34125
+      },
+      "mean_intensity": 22.81203007518797,
+      "edge_density": 0.2556390977443609
+    },
+    {
+      "id": 207,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 852,
+        "y": 88,
+        "w": 51,
+        "h": 48
+      },
+      "area": 2448,
+      "norm_area": 0.006375,
+      "aspect_ratio": 1.0625,
+      "centroid": {
+        "x": 0.9140625,
+        "y": 0.28
+      },
+      "mean_intensity": 21.69730392156863,
+      "edge_density": 0.16993464052287582
+    },
+    {
+      "id": 208,
+      "category": "MISC",
+      "bbox": {
+        "x": 818,
+        "y": 120,
+        "w": 33,
+        "h": 14
+      },
+      "area": 462,
+      "norm_area": 0.001203125,
+      "aspect_ratio": 2.357142857142857,
+      "centroid": {
+        "x": 0.8692708333333333,
+        "y": 0.3175
+      },
+      "mean_intensity": 30.4978354978355,
+      "edge_density": 0.3203463203463203
+    },
+    {
+      "id": 209,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 461,
+        "y": 108,
+        "w": 20,
+        "h": 20
+      },
+      "area": 400,
+      "norm_area": 0.0010416666666666667,
+      "aspect_ratio": 1.0,
+      "centroid": {
+        "x": 0.490625,
+        "y": 0.295
+      },
+      "mean_intensity": 16.4075,
+      "edge_density": 0.2425
+    },
+    {
+      "id": 210,
+      "category": "MISC",
+      "bbox": {
+        "x": 183,
+        "y": 110,
+        "w": 24,
+        "h": 36
+      },
+      "area": 864,
+      "norm_area": 0.00225,
+      "aspect_ratio": 0.6666666666666666,
+      "centroid": {
+        "x": 0.203125,
+        "y": 0.32
+      },
+      "mean_intensity": 16.171296296296298,
+      "edge_density": 0.13773148148148148
+    },
+    {
+      "id": 211,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 429,
+        "y": 119,
+        "w": 7,
+        "h": 12
+      },
+      "area": 84,
+      "norm_area": 0.00021875,
+      "aspect_ratio": 0.5833333333333334,
+      "centroid": {
+        "x": 0.4505208333333333,
+        "y": 0.3125
+      },
+      "mean_intensity": 8.797619047619047,
+      "edge_density": 0.36904761904761907
+    },
+    {
+      "id": 212,
+      "category": "MISC",
+      "bbox": {
+        "x": 687,
+        "y": 105,
+        "w": 32,
+        "h": 21
+      },
+      "area": 672,
+      "norm_area": 0.00175,
+      "aspect_ratio": 1.5238095238095237,
+      "centroid": {
+        "x": 0.7322916666666667,
+        "y": 0.28875
+      },
+      "mean_intensity": 28.107142857142858,
+      "edge_density": 0.35267857142857145
+    },
+    {
+      "id": 213,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 216,
+        "y": 49,
+        "w": 95,
+        "h": 71
+      },
+      "area": 6745,
+      "norm_area": 0.017565104166666668,
+      "aspect_ratio": 1.3380281690140845,
+      "centroid": {
+        "x": 0.27447916666666666,
+        "y": 0.21125
+      },
+      "mean_intensity": 14.384581171237954,
+      "edge_density": 0.18013343217197925
+    },
+    {
+      "id": 214,
+      "category": "MISC",
+      "bbox": {
+        "x": 644,
+        "y": 117,
+        "w": 10,
+        "h": 18
+      },
+      "area": 180,
+      "norm_area": 0.00046875,
+      "aspect_ratio": 0.5555555555555556,
+      "centroid": {
+        "x": 0.6760416666666667,
+        "y": 0.315
+      },
+      "mean_intensity": 26.933333333333334,
+      "edge_density": 0.35555555555555557
+    },
+    {
+      "id": 215,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 663,
+        "y": 95,
+        "w": 23,
+        "h": 29
+      },
+      "area": 667,
+      "norm_area": 0.0017369791666666666,
+      "aspect_ratio": 0.7931034482758621,
+      "centroid": {
+        "x": 0.7026041666666667,
+        "y": 0.27375
+      },
+      "mean_intensity": 22.67766116941529,
+      "edge_density": 0.2608695652173913
+    },
+    {
+      "id": 216,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 381,
+        "y": 102,
+        "w": 31,
+        "h": 26
+      },
+      "area": 806,
+      "norm_area": 0.0020989583333333333,
+      "aspect_ratio": 1.1923076923076923,
+      "centroid": {
+        "x": 0.41302083333333334,
+        "y": 0.2875
+      },
+      "mean_intensity": 26.770471464019852,
+      "edge_density": 0.27915632754342434
+    },
+    {
+      "id": 217,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 147,
+        "y": 112,
+        "w": 19,
+        "h": 6
+      },
+      "area": 114,
+      "norm_area": 0.000296875,
+      "aspect_ratio": 3.1666666666666665,
+      "centroid": {
+        "x": 0.16302083333333334,
+        "y": 0.2875
+      },
+      "mean_intensity": 22.32456140350877,
+      "edge_density": 0.4298245614035088
+    },
+    {
+      "id": 218,
+      "category": "MISC",
+      "bbox": {
+        "x": 558,
+        "y": 110,
+        "w": 13,
+        "h": 8
+      },
+      "area": 104,
+      "norm_area": 0.0002708333333333333,
+      "aspect_ratio": 1.625,
+      "centroid": {
+        "x": 0.5880208333333333,
+        "y": 0.285
+      },
+      "mean_intensity": 86.92307692307692,
+      "edge_density": 0.4807692307692308
+    },
+    {
+      "id": 219,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 718,
+        "y": 91,
+        "w": 97,
+        "h": 39
+      },
+      "area": 3783,
+      "norm_area": 0.0098515625,
+      "aspect_ratio": 2.4871794871794872,
+      "centroid": {
+        "x": 0.7984375,
+        "y": 0.27625
+      },
+      "mean_intensity": 24.53185302669839,
+      "edge_density": 0.2725350251123447
+    },
+    {
+      "id": 220,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 556,
+        "y": 87,
+        "w": 50,
+        "h": 33
+      },
+      "area": 1650,
+      "norm_area": 0.004296875,
+      "aspect_ratio": 1.5151515151515151,
+      "centroid": {
+        "x": 0.6052083333333333,
+        "y": 0.25875
+      },
+      "mean_intensity": 37.733939393939394,
+      "edge_density": 0.30727272727272725
+    },
+    {
+      "id": 221,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 471,
+        "y": 84,
+        "w": 27,
+        "h": 34
+      },
+      "area": 918,
+      "norm_area": 0.002390625,
+      "aspect_ratio": 0.7941176470588235,
+      "centroid": {
+        "x": 0.5046875,
+        "y": 0.2525
+      },
+      "mean_intensity": 30.554466230936818,
+      "edge_density": 0.3420479302832244
+    },
+    {
+      "id": 222,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 321,
+        "y": 91,
+        "w": 39,
+        "h": 35
+      },
+      "area": 1365,
+      "norm_area": 0.0035546875,
+      "aspect_ratio": 1.1142857142857143,
+      "centroid": {
+        "x": 0.3546875,
+        "y": 0.27125
+      },
+      "mean_intensity": 20.398534798534797,
+      "edge_density": 0.1772893772893773
+    },
+    {
+      "id": 223,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 617,
+        "y": 81,
+        "w": 41,
+        "h": 30
+      },
+      "area": 1230,
+      "norm_area": 0.003203125,
+      "aspect_ratio": 1.3666666666666667,
+      "centroid": {
+        "x": 0.6640625,
+        "y": 0.24
+      },
+      "mean_intensity": 27.178048780487806,
+      "edge_density": 0.3032520325203252
+    },
+    {
+      "id": 224,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 13,
+        "y": 85,
+        "w": 57,
+        "h": 32
+      },
+      "area": 1824,
+      "norm_area": 0.00475,
+      "aspect_ratio": 1.78125,
+      "centroid": {
+        "x": 0.043229166666666666,
+        "y": 0.2525
+      },
+      "mean_intensity": 9.046600877192983,
+      "edge_density": 0.14309210526315788
+    },
+    {
+      "id": 225,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 414,
+        "y": 100,
+        "w": 10,
+        "h": 11
+      },
+      "area": 110,
+      "norm_area": 0.00028645833333333333,
+      "aspect_ratio": 0.9090909090909091,
+      "centroid": {
+        "x": 0.43645833333333334,
+        "y": 0.26375
+      },
+      "mean_intensity": 43.25454545454546,
+      "edge_density": 0.41818181818181815
+    },
+    {
+      "id": 226,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 814,
+        "y": 80,
+        "w": 9,
+        "h": 27
+      },
+      "area": 243,
+      "norm_area": 0.0006328125,
+      "aspect_ratio": 0.3333333333333333,
+      "centroid": {
+        "x": 0.8526041666666667,
+        "y": 0.23375
+      },
+      "mean_intensity": 33.489711934156375,
+      "edge_density": 0.2716049382716049
+    },
+    {
+      "id": 227,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 716,
+        "y": 88,
+        "w": 21,
+        "h": 23
+      },
+      "area": 483,
+      "norm_area": 0.0012578125,
+      "aspect_ratio": 0.9130434782608695,
+      "centroid": {
+        "x": 0.7567708333333333,
+        "y": 0.24875
+      },
+      "mean_intensity": 29.70600414078675,
+      "edge_density": 0.2753623188405797
+    },
+    {
+      "id": 228,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 887,
+        "y": 96,
+        "w": 8,
+        "h": 9
+      },
+      "area": 72,
+      "norm_area": 0.0001875,
+      "aspect_ratio": 0.8888888888888888,
+      "centroid": {
+        "x": 0.928125,
+        "y": 0.25125
+      },
+      "mean_intensity": 32.31944444444444,
+      "edge_density": 0.2777777777777778
+    },
+    {
+      "id": 229,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 503,
+        "y": 75,
+        "w": 30,
+        "h": 49
+      },
+      "area": 1470,
+      "norm_area": 0.003828125,
+      "aspect_ratio": 0.6122448979591837,
+      "centroid": {
+        "x": 0.5395833333333333,
+        "y": 0.24875
+      },
+      "mean_intensity": 31.468707482993196,
+      "edge_density": 0.2748299319727891
+    },
+    {
+      "id": 230,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 826,
+        "y": 92,
+        "w": 27,
+        "h": 27
+      },
+      "area": 729,
+      "norm_area": 0.0018984375,
+      "aspect_ratio": 1.0,
+      "centroid": {
+        "x": 0.8744791666666667,
+        "y": 0.26375
+      },
+      "mean_intensity": 20.561042524005487,
+      "edge_density": 0.2496570644718793
+    },
+    {
+      "id": 231,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 180,
+        "y": 83,
+        "w": 20,
+        "h": 20
+      },
+      "area": 400,
+      "norm_area": 0.0010416666666666667,
+      "aspect_ratio": 1.0,
+      "centroid": {
+        "x": 0.19791666666666666,
+        "y": 0.2325
+      },
+      "mean_intensity": 22.25,
+      "edge_density": 0.2075
+    },
+    {
+      "id": 232,
+      "category": "MISC",
+      "bbox": {
+        "x": 208,
+        "y": 75,
+        "w": 17,
+        "h": 30
+      },
+      "area": 510,
+      "norm_area": 0.001328125,
+      "aspect_ratio": 0.5666666666666667,
+      "centroid": {
+        "x": 0.22552083333333334,
+        "y": 0.225
+      },
+      "mean_intensity": 26.798039215686273,
+      "edge_density": 0.29215686274509806
+    },
+    {
+      "id": 233,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 430,
+        "y": 76,
+        "w": 47,
+        "h": 28
+      },
+      "area": 1316,
+      "norm_area": 0.003427083333333333,
+      "aspect_ratio": 1.6785714285714286,
+      "centroid": {
+        "x": 0.47239583333333335,
+        "y": 0.225
+      },
+      "mean_intensity": 25.325987841945288,
+      "edge_density": 0.2591185410334346
+    },
+    {
+      "id": 234,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 109,
+        "y": 79,
+        "w": 49,
+        "h": 16
+      },
+      "area": 784,
+      "norm_area": 0.0020416666666666665,
+      "aspect_ratio": 3.0625,
+      "centroid": {
+        "x": 0.1390625,
+        "y": 0.2175
+      },
+      "mean_intensity": 29.107142857142858,
+      "edge_density": 0.3622448979591837
+    },
+    {
+      "id": 235,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 704,
+        "y": 73,
+        "w": 20,
+        "h": 21
+      },
+      "area": 420,
+      "norm_area": 0.00109375,
+      "aspect_ratio": 0.9523809523809523,
+      "centroid": {
+        "x": 0.74375,
+        "y": 0.20875
+      },
+      "mean_intensity": 28.34285714285714,
+      "edge_density": 0.3547619047619048
+    },
+    {
+      "id": 236,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 681,
+        "y": 78,
+        "w": 15,
+        "h": 16
+      },
+      "area": 240,
+      "norm_area": 0.000625,
+      "aspect_ratio": 0.9375,
+      "centroid": {
+        "x": 0.7171875,
+        "y": 0.215
+      },
+      "mean_intensity": 25.1,
+      "edge_density": 0.36666666666666664
+    },
+    {
+      "id": 237,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 138,
+        "y": 67,
+        "w": 21,
+        "h": 27
+      },
+      "area": 567,
+      "norm_area": 0.0014765625,
+      "aspect_ratio": 0.7777777777777778,
+      "centroid": {
+        "x": 0.1546875,
+        "y": 0.20125
+      },
+      "mean_intensity": 32.23456790123457,
+      "edge_density": 0.3932980599647266
+    },
+    {
+      "id": 238,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 830,
+        "y": 81,
+        "w": 32,
+        "h": 7
+      },
+      "area": 224,
+      "norm_area": 0.0005833333333333334,
+      "aspect_ratio": 4.571428571428571,
+      "centroid": {
+        "x": 0.88125,
+        "y": 0.21125
+      },
+      "mean_intensity": 51.50892857142857,
+      "edge_density": 0.3794642857142857
+    },
+    {
+      "id": 239,
+      "category": "MISC",
+      "bbox": {
+        "x": 635,
+        "y": 68,
+        "w": 37,
+        "h": 24
+      },
+      "area": 888,
+      "norm_area": 0.0023125,
+      "aspect_ratio": 1.5416666666666667,
+      "centroid": {
+        "x": 0.6807291666666667,
+        "y": 0.2
+      },
+      "mean_intensity": 24.385135135135137,
+      "edge_density": 0.2849099099099099
+    },
+    {
+      "id": 240,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 469,
+        "y": 67,
+        "w": 33,
+        "h": 26
+      },
+      "area": 858,
+      "norm_area": 0.002234375,
+      "aspect_ratio": 1.2692307692307692,
+      "centroid": {
+        "x": 0.5057291666666667,
+        "y": 0.2
+      },
+      "mean_intensity": 31.43822843822844,
+      "edge_density": 0.337995337995338
+    },
+    {
+      "id": 241,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 375,
+        "y": 77,
+        "w": 25,
+        "h": 24
+      },
+      "area": 600,
+      "norm_area": 0.0015625,
+      "aspect_ratio": 1.0416666666666667,
+      "centroid": {
+        "x": 0.4036458333333333,
+        "y": 0.2225
+      },
+      "mean_intensity": 27.496666666666666,
+      "edge_density": 0.24333333333333335
+    },
+    {
+      "id": 242,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 534,
+        "y": 81,
+        "w": 13,
+        "h": 56
+      },
+      "area": 728,
+      "norm_area": 0.0018958333333333334,
+      "aspect_ratio": 0.23214285714285715,
+      "centroid": {
+        "x": 0.5630208333333333,
+        "y": 0.2725
+      },
+      "mean_intensity": 27.793956043956044,
+      "edge_density": 0.2623626373626374
+    },
+    {
+      "id": 243,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 863,
+        "y": 80,
+        "w": 9,
+        "h": 9
+      },
+      "area": 81,
+      "norm_area": 0.0002109375,
+      "aspect_ratio": 1.0,
+      "centroid": {
+        "x": 0.9036458333333334,
+        "y": 0.21125
+      },
+      "mean_intensity": 36.17283950617284,
+      "edge_density": 0.4074074074074074
+    },
+    {
+      "id": 244,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 70,
+        "y": 59,
+        "w": 25,
+        "h": 26
+      },
+      "area": 650,
+      "norm_area": 0.0016927083333333334,
+      "aspect_ratio": 0.9615384615384616,
+      "centroid": {
+        "x": 0.0859375,
+        "y": 0.18
+      },
+      "mean_intensity": 24.107692307692307,
+      "edge_density": 0.3630769230769231
+    },
+    {
+      "id": 245,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 266,
+        "y": 67,
+        "w": 27,
+        "h": 23
+      },
+      "area": 621,
+      "norm_area": 0.0016171875,
+      "aspect_ratio": 1.173913043478261,
+      "centroid": {
+        "x": 0.2911458333333333,
+        "y": 0.19625
+      },
+      "mean_intensity": 26.426731078904993,
+      "edge_density": 0.2640901771336554
+    },
+    {
+      "id": 246,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 611,
+        "y": 61,
+        "w": 23,
+        "h": 21
+      },
+      "area": 483,
+      "norm_area": 0.0012578125,
+      "aspect_ratio": 1.0952380952380953,
+      "centroid": {
+        "x": 0.6484375,
+        "y": 0.17875
+      },
+      "mean_intensity": 23.115942028985508,
+      "edge_density": 0.2857142857142857
+    },
+    {
+      "id": 247,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 344,
+        "y": 74,
+        "w": 14,
+        "h": 18
+      },
+      "area": 252,
+      "norm_area": 0.00065625,
+      "aspect_ratio": 0.7777777777777778,
+      "centroid": {
+        "x": 0.365625,
+        "y": 0.2075
+      },
+      "mean_intensity": 87.69444444444444,
+      "edge_density": 0.4166666666666667
+    },
+    {
+      "id": 248,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 503,
+        "y": 70,
+        "w": 40,
+        "h": 10
+      },
+      "area": 400,
+      "norm_area": 0.0010416666666666667,
+      "aspect_ratio": 4.0,
+      "centroid": {
+        "x": 0.5447916666666667,
+        "y": 0.1875
+      },
+      "mean_intensity": 31.175,
+      "edge_density": 0.3
+    },
+    {
+      "id": 249,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 404,
+        "y": 72,
+        "w": 4,
+        "h": 29
+      },
+      "area": 116,
+      "norm_area": 0.00030208333333333335,
+      "aspect_ratio": 0.13793103448275862,
+      "centroid": {
+        "x": 0.42291666666666666,
+        "y": 0.21625
+      },
+      "mean_intensity": 71.16379310344827,
+      "edge_density": 0.603448275862069
+    },
+    {
+      "id": 250,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 34,
+        "y": 35,
+        "w": 33,
+        "h": 45
+      },
+      "area": 1485,
+      "norm_area": 0.0038671875,
+      "aspect_ratio": 0.7333333333333333,
+      "centroid": {
+        "x": 0.05260416666666667,
+        "y": 0.14375
+      },
+      "mean_intensity": 17.148821548821548,
+      "edge_density": 0.2909090909090909
+    },
+    {
+      "id": 251,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 799,
+        "y": 45,
+        "w": 75,
+        "h": 45
+      },
+      "area": 3375,
+      "norm_area": 0.0087890625,
+      "aspect_ratio": 1.6666666666666667,
+      "centroid": {
+        "x": 0.8713541666666667,
+        "y": 0.16875
+      },
+      "mean_intensity": 22.378962962962962,
+      "edge_density": 0.21718518518518518
+    },
+    {
+      "id": 252,
+      "category": "MISC",
+      "bbox": {
+        "x": 247,
+        "y": 67,
+        "w": 19,
+        "h": 34
+      },
+      "area": 646,
+      "norm_area": 0.0016822916666666666,
+      "aspect_ratio": 0.5588235294117647,
+      "centroid": {
+        "x": 0.2671875,
+        "y": 0.21
+      },
+      "mean_intensity": 27.111455108359134,
+      "edge_density": 0.3204334365325077
+    },
+    {
+      "id": 253,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 552,
+        "y": 55,
+        "w": 42,
+        "h": 28
+      },
+      "area": 1176,
+      "norm_area": 0.0030625,
+      "aspect_ratio": 1.5,
+      "centroid": {
+        "x": 0.596875,
+        "y": 0.1725
+      },
+      "mean_intensity": 28.260204081632654,
+      "edge_density": 0.3086734693877551
+    },
+    {
+      "id": 254,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 776,
+        "y": 66,
+        "w": 15,
+        "h": 16
+      },
+      "area": 240,
+      "norm_area": 0.000625,
+      "aspect_ratio": 0.9375,
+      "centroid": {
+        "x": 0.8161458333333333,
+        "y": 0.185
+      },
+      "mean_intensity": 22.3875,
+      "edge_density": 0.29583333333333334
+    },
+    {
+      "id": 255,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 112,
+        "y": 50,
+        "w": 27,
+        "h": 24
+      },
+      "area": 648,
+      "norm_area": 0.0016875,
+      "aspect_ratio": 1.125,
+      "centroid": {
+        "x": 0.13072916666666667,
+        "y": 0.155
+      },
+      "mean_intensity": 25.557098765432098,
+      "edge_density": 0.3194444444444444
+    },
+    {
+      "id": 256,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 590,
+        "y": 66,
+        "w": 18,
+        "h": 13
+      },
+      "area": 234,
+      "norm_area": 0.000609375,
+      "aspect_ratio": 1.3846153846153846,
+      "centroid": {
+        "x": 0.6239583333333333,
+        "y": 0.18125
+      },
+      "mean_intensity": 41.35897435897436,
+      "edge_density": 0.3418803418803419
+    },
+    {
+      "id": 257,
+      "category": "MISC",
+      "bbox": {
+        "x": 880,
+        "y": 64,
+        "w": 12,
+        "h": 22
+      },
+      "area": 264,
+      "norm_area": 0.0006875,
+      "aspect_ratio": 0.5454545454545454,
+      "centroid": {
+        "x": 0.9229166666666667,
+        "y": 0.1875
+      },
+      "mean_intensity": 37.39393939393939,
+      "edge_density": 0.3143939393939394
+    },
+    {
+      "id": 258,
+      "category": "MISC",
+      "bbox": {
+        "x": 671,
+        "y": 58,
+        "w": 32,
+        "h": 14
+      },
+      "area": 448,
+      "norm_area": 0.0011666666666666668,
+      "aspect_ratio": 2.2857142857142856,
+      "centroid": {
+        "x": 0.715625,
+        "y": 0.1625
+      },
+      "mean_intensity": 24.176339285714285,
+      "edge_density": 0.33482142857142855
+    },
+    {
+      "id": 259,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 623,
+        "y": 56,
+        "w": 36,
+        "h": 11
+      },
+      "area": 396,
+      "norm_area": 0.00103125,
+      "aspect_ratio": 3.272727272727273,
+      "centroid": {
+        "x": 0.6677083333333333,
+        "y": 0.15375
+      },
+      "mean_intensity": 34.265151515151516,
+      "edge_density": 0.33080808080808083
+    },
+    {
+      "id": 260,
+      "category": "MISC",
+      "bbox": {
+        "x": 449,
+        "y": 56,
+        "w": 32,
+        "h": 22
+      },
+      "area": 704,
+      "norm_area": 0.0018333333333333333,
+      "aspect_ratio": 1.4545454545454546,
+      "centroid": {
+        "x": 0.484375,
+        "y": 0.1675
+      },
+      "mean_intensity": 20.186079545454547,
+      "edge_density": 0.296875
+    },
+    {
+      "id": 261,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 426,
+        "y": 48,
+        "w": 29,
+        "h": 31
+      },
+      "area": 899,
+      "norm_area": 0.0023411458333333335,
+      "aspect_ratio": 0.9354838709677419,
+      "centroid": {
+        "x": 0.4588541666666667,
+        "y": 0.15875
+      },
+      "mean_intensity": 23.14015572858732,
+      "edge_density": 0.29810901001112344
+    },
+    {
+      "id": 262,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 172,
+        "y": 37,
+        "w": 47,
+        "h": 44
+      },
+      "area": 2068,
+      "norm_area": 0.005385416666666667,
+      "aspect_ratio": 1.0681818181818181,
+      "centroid": {
+        "x": 0.20364583333333333,
+        "y": 0.1475
+      },
+      "mean_intensity": 23.197775628626694,
+      "edge_density": 0.27949709864603484
+    },
+    {
+      "id": 263,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 867,
+        "y": 42,
+        "w": 56,
+        "h": 67
+      },
+      "area": 3752,
+      "norm_area": 0.009770833333333333,
+      "aspect_ratio": 0.835820895522388,
+      "centroid": {
+        "x": 0.9322916666666666,
+        "y": 0.18875
+      },
+      "mean_intensity": 20.57542643923241,
+      "edge_density": 0.20442430703624734
+    },
+    {
+      "id": 264,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 139,
+        "y": 50,
+        "w": 22,
+        "h": 19
+      },
+      "area": 418,
+      "norm_area": 0.0010885416666666667,
+      "aspect_ratio": 1.1578947368421053,
+      "centroid": {
+        "x": 0.15625,
+        "y": 0.14875
+      },
+      "mean_intensity": 25.284688995215312,
+      "edge_density": 0.3492822966507177
+    },
+    {
+      "id": 265,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 745,
+        "y": 45,
+        "w": 46,
+        "h": 26
+      },
+      "area": 1196,
+      "norm_area": 0.0031145833333333334,
+      "aspect_ratio": 1.7692307692307692,
+      "centroid": {
+        "x": 0.8,
+        "y": 0.145
+      },
+      "mean_intensity": 15.73913043478261,
+      "edge_density": 0.24163879598662208
+    },
+    {
+      "id": 266,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 737,
+        "y": 57,
+        "w": 10,
+        "h": 36
+      },
+      "area": 360,
+      "norm_area": 0.0009375,
+      "aspect_ratio": 0.2777777777777778,
+      "centroid": {
+        "x": 0.7729166666666667,
+        "y": 0.1875
+      },
+      "mean_intensity": 42.62222222222222,
+      "edge_density": 0.25
+    },
+    {
+      "id": 267,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 250,
+        "y": 52,
+        "w": 65,
+        "h": 47
+      },
+      "area": 3055,
+      "norm_area": 0.007955729166666667,
+      "aspect_ratio": 1.3829787234042554,
+      "centroid": {
+        "x": 0.2942708333333333,
+        "y": 0.18875
+      },
+      "mean_intensity": 15.454991816693944,
+      "edge_density": 0.19018003273322423
+    },
+    {
+      "id": 268,
+      "category": "MISC",
+      "bbox": {
+        "x": 722,
+        "y": 37,
+        "w": 18,
+        "h": 26
+      },
+      "area": 468,
+      "norm_area": 0.00121875,
+      "aspect_ratio": 0.6923076923076923,
+      "centroid": {
+        "x": 0.7614583333333333,
+        "y": 0.125
+      },
+      "mean_intensity": 31.318376068376068,
+      "edge_density": 0.34615384615384615
+    },
+    {
+      "id": 269,
+      "category": "MISC",
+      "bbox": {
+        "x": 388,
+        "y": 49,
+        "w": 26,
+        "h": 12
+      },
+      "area": 312,
+      "norm_area": 0.0008125,
+      "aspect_ratio": 2.1666666666666665,
+      "centroid": {
+        "x": 0.41770833333333335,
+        "y": 0.1375
+      },
+      "mean_intensity": 26.134615384615383,
+      "edge_density": 0.25
+    },
+    {
+      "id": 270,
+      "category": "MISC",
+      "bbox": {
+        "x": 215,
+        "y": 44,
+        "w": 34,
+        "h": 20
+      },
+      "area": 680,
+      "norm_area": 0.0017708333333333332,
+      "aspect_ratio": 1.7,
+      "centroid": {
+        "x": 0.24166666666666667,
+        "y": 0.135
+      },
+      "mean_intensity": 30.53235294117647,
+      "edge_density": 0.2985294117647059
+    },
+    {
+      "id": 271,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 670,
+        "y": 35,
+        "w": 51,
+        "h": 45
+      },
+      "area": 2295,
+      "norm_area": 0.0059765625,
+      "aspect_ratio": 1.1333333333333333,
+      "centroid": {
+        "x": 0.7244791666666667,
+        "y": 0.14375
+      },
+      "mean_intensity": 23.680610021786492,
+      "edge_density": 0.2684095860566449
+    },
+    {
+      "id": 272,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 349,
+        "y": 40,
+        "w": 29,
+        "h": 21
+      },
+      "area": 609,
+      "norm_area": 0.0015859375,
+      "aspect_ratio": 1.380952380952381,
+      "centroid": {
+        "x": 0.37864583333333335,
+        "y": 0.12625
+      },
+      "mean_intensity": 31.569786535303777,
+      "edge_density": 0.31198686371100165
+    },
+    {
+      "id": 273,
+      "category": "MISC",
+      "bbox": {
+        "x": 316,
+        "y": 40,
+        "w": 31,
+        "h": 21
+      },
+      "area": 651,
+      "norm_area": 0.0016953125,
+      "aspect_ratio": 1.4761904761904763,
+      "centroid": {
+        "x": 0.3453125,
+        "y": 0.12625
+      },
+      "mean_intensity": 25.65437788018433,
+      "edge_density": 0.21658986175115208
+    },
+    {
+      "id": 274,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 542,
+        "y": 39,
+        "w": 24,
+        "h": 23
+      },
+      "area": 552,
+      "norm_area": 0.0014375,
+      "aspect_ratio": 1.0434782608695652,
+      "centroid": {
+        "x": 0.5770833333333333,
+        "y": 0.12625
+      },
+      "mean_intensity": 31.32246376811594,
+      "edge_density": 0.3333333333333333
+    },
+    {
+      "id": 275,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 80,
+        "y": 36,
+        "w": 24,
+        "h": 20
+      },
+      "area": 480,
+      "norm_area": 0.00125,
+      "aspect_ratio": 1.2,
+      "centroid": {
+        "x": 0.09583333333333334,
+        "y": 0.115
+      },
+      "mean_intensity": 26.279166666666665,
+      "edge_density": 0.37083333333333335
+    },
+    {
+      "id": 276,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 37,
+        "y": 49,
+        "w": 6,
+        "h": 14
+      },
+      "area": 84,
+      "norm_area": 0.00021875,
+      "aspect_ratio": 0.42857142857142855,
+      "centroid": {
+        "x": 0.041666666666666664,
+        "y": 0.14
+      },
+      "mean_intensity": 10.511904761904763,
+      "edge_density": 0.36904761904761907
+    },
+    {
+      "id": 277,
+      "category": "MISC",
+      "bbox": {
+        "x": 756,
+        "y": 9,
+        "w": 146,
+        "h": 49
+      },
+      "area": 7154,
+      "norm_area": 0.018630208333333332,
+      "aspect_ratio": 2.979591836734694,
+      "centroid": {
+        "x": 0.8635416666666667,
+        "y": 0.08375
+      },
+      "mean_intensity": 21.197931227285434,
+      "edge_density": 0.22826390830304724
+    },
+    {
+      "id": 278,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 483,
+        "y": 26,
+        "w": 32,
+        "h": 32
+      },
+      "area": 1024,
+      "norm_area": 0.0026666666666666666,
+      "aspect_ratio": 1.0,
+      "centroid": {
+        "x": 0.5197916666666667,
+        "y": 0.105
+      },
+      "mean_intensity": 23.7314453125,
+      "edge_density": 0.294921875
+    },
+    {
+      "id": 279,
+      "category": "MISC",
+      "bbox": {
+        "x": 569,
+        "y": 34,
+        "w": 38,
+        "h": 22
+      },
+      "area": 836,
+      "norm_area": 0.0021770833333333334,
+      "aspect_ratio": 1.7272727272727273,
+      "centroid": {
+        "x": 0.6125,
+        "y": 0.1125
+      },
+      "mean_intensity": 32.063397129186605,
+      "edge_density": 0.3145933014354067
+    },
+    {
+      "id": 280,
+      "category": "MISC",
+      "bbox": {
+        "x": 55,
+        "y": 43,
+        "w": 13,
+        "h": 23
+      },
+      "area": 299,
+      "norm_area": 0.0007786458333333333,
+      "aspect_ratio": 0.5652173913043478,
+      "centroid": {
+        "x": 0.0640625,
+        "y": 0.13625
+      },
+      "mean_intensity": 9.240802675585284,
+      "edge_density": 0.3076923076923077
+    },
+    {
+      "id": 281,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 106,
+        "y": 30,
+        "w": 30,
+        "h": 28
+      },
+      "area": 840,
+      "norm_area": 0.0021875,
+      "aspect_ratio": 1.0714285714285714,
+      "centroid": {
+        "x": 0.12604166666666666,
+        "y": 0.11
+      },
+      "mean_intensity": 25.327380952380953,
+      "edge_density": 0.30714285714285716
+    },
+    {
+      "id": 282,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 275,
+        "y": 22,
+        "w": 51,
+        "h": 29
+      },
+      "area": 1479,
+      "norm_area": 0.0038515625,
+      "aspect_ratio": 1.7586206896551724,
+      "centroid": {
+        "x": 0.31302083333333336,
+        "y": 0.09125
+      },
+      "mean_intensity": 24.597701149425287,
+      "edge_density": 0.29749830966869506
+    },
+    {
+      "id": 283,
+      "category": "MISC",
+      "bbox": {
+        "x": 239,
+        "y": 32,
+        "w": 34,
+        "h": 19
+      },
+      "area": 646,
+      "norm_area": 0.0016822916666666666,
+      "aspect_ratio": 1.7894736842105263,
+      "centroid": {
+        "x": 0.26666666666666666,
+        "y": 0.10375
+      },
+      "mean_intensity": 33.27863777089783,
+      "edge_density": 0.3606811145510836
+    },
+    {
+      "id": 284,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 208,
+        "y": 31,
+        "w": 20,
+        "h": 15
+      },
+      "area": 300,
+      "norm_area": 0.00078125,
+      "aspect_ratio": 1.3333333333333333,
+      "centroid": {
+        "x": 0.22708333333333333,
+        "y": 0.09625
+      },
+      "mean_intensity": 41.403333333333336,
+      "edge_density": 0.33
+    },
+    {
+      "id": 285,
+      "category": "MISC",
+      "bbox": {
+        "x": 441,
+        "y": 22,
+        "w": 39,
+        "h": 25
+      },
+      "area": 975,
+      "norm_area": 0.0025390625,
+      "aspect_ratio": 1.56,
+      "centroid": {
+        "x": 0.4796875,
+        "y": 0.08625
+      },
+      "mean_intensity": 25.913846153846155,
+      "edge_density": 0.3241025641025641
+    },
+    {
+      "id": 286,
+      "category": "MISC",
+      "bbox": {
+        "x": 425,
+        "y": 40,
+        "w": 23,
+        "h": 14
+      },
+      "area": 322,
+      "norm_area": 0.0008385416666666667,
+      "aspect_ratio": 1.6428571428571428,
+      "centroid": {
+        "x": 0.4546875,
+        "y": 0.1175
+      },
+      "mean_intensity": 27.31055900621118,
+      "edge_density": 0.3167701863354037
+    },
+    {
+      "id": 287,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 740,
+        "y": 30,
+        "w": 18,
+        "h": 18
+      },
+      "area": 324,
+      "norm_area": 0.00084375,
+      "aspect_ratio": 1.0,
+      "centroid": {
+        "x": 0.7802083333333333,
+        "y": 0.0975
+      },
+      "mean_intensity": 27.55246913580247,
+      "edge_density": 0.26851851851851855
+    },
+    {
+      "id": 288,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 515,
+        "y": 22,
+        "w": 25,
+        "h": 32
+      },
+      "area": 800,
+      "norm_area": 0.0020833333333333333,
+      "aspect_ratio": 0.78125,
+      "centroid": {
+        "x": 0.5494791666666666,
+        "y": 0.095
+      },
+      "mean_intensity": 22.4875,
+      "edge_density": 0.31
+    },
+    {
+      "id": 289,
+      "category": "MISC",
+      "bbox": {
+        "x": 668,
+        "y": 25,
+        "w": 38,
+        "h": 19
+      },
+      "area": 722,
+      "norm_area": 0.0018802083333333333,
+      "aspect_ratio": 2.0,
+      "centroid": {
+        "x": 0.715625,
+        "y": 0.08625
+      },
+      "mean_intensity": 30.434903047091414,
+      "edge_density": 0.3379501385041551
+    },
+    {
+      "id": 290,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 614,
+        "y": 35,
+        "w": 44,
+        "h": 25
+      },
+      "area": 1100,
+      "norm_area": 0.002864583333333333,
+      "aspect_ratio": 1.76,
+      "centroid": {
+        "x": 0.6625,
+        "y": 0.11875
+      },
+      "mean_intensity": 32.81090909090909,
+      "edge_density": 0.2736363636363636
+    },
+    {
+      "id": 291,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 661,
+        "y": 37,
+        "w": 7,
+        "h": 23
+      },
+      "area": 161,
+      "norm_area": 0.00041927083333333334,
+      "aspect_ratio": 0.30434782608695654,
+      "centroid": {
+        "x": 0.6921875,
+        "y": 0.12125
+      },
+      "mean_intensity": 48.962732919254655,
+      "edge_density": 0.3105590062111801
+    },
+    {
+      "id": 292,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 143,
+        "y": 20,
+        "w": 46,
+        "h": 28
+      },
+      "area": 1288,
+      "norm_area": 0.0033541666666666668,
+      "aspect_ratio": 1.6428571428571428,
+      "centroid": {
+        "x": 0.17291666666666666,
+        "y": 0.085
+      },
+      "mean_intensity": 25.89673913043478,
+      "edge_density": 0.27562111801242234
+    },
+    {
+      "id": 293,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 761,
+        "y": 33,
+        "w": 11,
+        "h": 9
+      },
+      "area": 99,
+      "norm_area": 0.0002578125,
+      "aspect_ratio": 1.2222222222222223,
+      "centroid": {
+        "x": 0.7984375,
+        "y": 0.09375
+      },
+      "mean_intensity": 35.77777777777778,
+      "edge_density": 0.41414141414141414
+    },
+    {
+      "id": 294,
+      "category": "MISC",
+      "bbox": {
+        "x": 840,
+        "y": 22,
+        "w": 35,
+        "h": 23
+      },
+      "area": 805,
+      "norm_area": 0.0020963541666666665,
+      "aspect_ratio": 1.5217391304347827,
+      "centroid": {
+        "x": 0.8932291666666666,
+        "y": 0.08375
+      },
+      "mean_intensity": 26.608695652173914,
+      "edge_density": 0.2819875776397516
+    },
+    {
+      "id": 295,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 815,
+        "y": 32,
+        "w": 11,
+        "h": 9
+      },
+      "area": 99,
+      "norm_area": 0.0002578125,
+      "aspect_ratio": 1.2222222222222223,
+      "centroid": {
+        "x": 0.8546875,
+        "y": 0.09125
+      },
+      "mean_intensity": 36.23232323232323,
+      "edge_density": 0.40404040404040403
+    },
+    {
+      "id": 296,
+      "category": "MISC",
+      "bbox": {
+        "x": 597,
+        "y": 23,
+        "w": 30,
+        "h": 17
+      },
+      "area": 510,
+      "norm_area": 0.001328125,
+      "aspect_ratio": 1.7647058823529411,
+      "centroid": {
+        "x": 0.6375,
+        "y": 0.07875
+      },
+      "mean_intensity": 20.37450980392157,
+      "edge_density": 0.2549019607843137
+    },
+    {
+      "id": 297,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 777,
+        "y": 19,
+        "w": 20,
+        "h": 19
+      },
+      "area": 380,
+      "norm_area": 0.0009895833333333334,
+      "aspect_ratio": 1.0526315789473684,
+      "centroid": {
+        "x": 0.8197916666666667,
+        "y": 0.07125
+      },
+      "mean_intensity": 21.95,
+      "edge_density": 0.2394736842105263
+    },
+    {
+      "id": 298,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 880,
+        "y": 29,
+        "w": 8,
+        "h": 10
+      },
+      "area": 80,
+      "norm_area": 0.00020833333333333335,
+      "aspect_ratio": 0.8,
+      "centroid": {
+        "x": 0.9208333333333333,
+        "y": 0.085
+      },
+      "mean_intensity": 34.525,
+      "edge_density": 0.45
+    },
+    {
+      "id": 299,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 363,
+        "y": 22,
+        "w": 45,
+        "h": 28
+      },
+      "area": 1260,
+      "norm_area": 0.00328125,
+      "aspect_ratio": 1.6071428571428572,
+      "centroid": {
+        "x": 0.4015625,
+        "y": 0.09
+      },
+      "mean_intensity": 18.313492063492063,
+      "edge_density": 0.31825396825396823
+    },
+    {
+      "id": 300,
+      "category": "MISC",
+      "bbox": {
+        "x": 42,
+        "y": 16,
+        "w": 71,
+        "h": 23
+      },
+      "area": 1633,
+      "norm_area": 0.004252604166666667,
+      "aspect_ratio": 3.0869565217391304,
+      "centroid": {
+        "x": 0.08072916666666667,
+        "y": 0.06875
+      },
+      "mean_intensity": 24.640538885486833,
+      "edge_density": 0.2896509491733007
+    },
+    {
+      "id": 301,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 707,
+        "y": 11,
+        "w": 53,
+        "h": 22
+      },
+      "area": 1166,
+      "norm_area": 0.0030364583333333333,
+      "aspect_ratio": 2.409090909090909,
+      "centroid": {
+        "x": 0.7640625,
+        "y": 0.055
+      },
+      "mean_intensity": 27.30360205831904,
+      "edge_density": 0.2830188679245283
+    },
+    {
+      "id": 302,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 234,
+        "y": 22,
+        "w": 11,
+        "h": 29
+      },
+      "area": 319,
+      "norm_area": 0.0008307291666666667,
+      "aspect_ratio": 0.3793103448275862,
+      "centroid": {
+        "x": 0.24947916666666667,
+        "y": 0.09125
+      },
+      "mean_intensity": 25.338557993730408,
+      "edge_density": 0.3887147335423197
+    },
+    {
+      "id": 303,
+      "category": "MISC",
+      "bbox": {
+        "x": 545,
+        "y": 14,
+        "w": 16,
+        "h": 23
+      },
+      "area": 368,
+      "norm_area": 0.0009583333333333333,
+      "aspect_ratio": 0.6956521739130435,
+      "centroid": {
+        "x": 0.5760416666666667,
+        "y": 0.06375
+      },
+      "mean_intensity": 33.016304347826086,
+      "edge_density": 0.3342391304347826
+    },
+    {
+      "id": 304,
+      "category": "MISC",
+      "bbox": {
+        "x": 498,
+        "y": 14,
+        "w": 10,
+        "h": 23
+      },
+      "area": 230,
+      "norm_area": 0.0005989583333333333,
+      "aspect_ratio": 0.43478260869565216,
+      "centroid": {
+        "x": 0.5239583333333333,
+        "y": 0.06375
+      },
+      "mean_intensity": 33.995652173913044,
+      "edge_density": 0.3782608695652174
+    },
+    {
+      "id": 305,
+      "category": "MISC",
+      "bbox": {
+        "x": 404,
+        "y": 22,
+        "w": 10,
+        "h": 20
+      },
+      "area": 200,
+      "norm_area": 0.0005208333333333333,
+      "aspect_ratio": 0.5,
+      "centroid": {
+        "x": 0.42604166666666665,
+        "y": 0.08
+      },
+      "mean_intensity": 16.885,
+      "edge_density": 0.38
+    },
+    {
+      "id": 306,
+      "category": "CAPACITOR",
+      "bbox": {
+        "x": 346,
+        "y": 22,
+        "w": 16,
+        "h": 16
+      },
+      "area": 256,
+      "norm_area": 0.0006666666666666666,
+      "aspect_ratio": 1.0,
+      "centroid": {
+        "x": 0.36875,
+        "y": 0.075
+      },
+      "mean_intensity": 15.3984375,
+      "edge_density": 0.375
+    },
+    {
+      "id": 307,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 328,
+        "y": 22,
+        "w": 4,
+        "h": 16
+      },
+      "area": 64,
+      "norm_area": 0.00016666666666666666,
+      "aspect_ratio": 0.25,
+      "centroid": {
+        "x": 0.34375,
+        "y": 0.075
+      },
+      "mean_intensity": 18.265625,
+      "edge_density": 0.546875
+    },
+    {
+      "id": 308,
+      "category": "MISC",
+      "bbox": {
+        "x": 103,
+        "y": 7,
+        "w": 98,
+        "h": 17
+      },
+      "area": 1666,
+      "norm_area": 0.004338541666666667,
+      "aspect_ratio": 5.764705882352941,
+      "centroid": {
+        "x": 0.15833333333333333,
+        "y": 0.03875
+      },
+      "mean_intensity": 15.112244897959183,
+      "edge_density": 0.20168067226890757
+    },
+    {
+      "id": 309,
+      "category": "SMALL_COMPONENT",
+      "bbox": {
+        "x": 145,
+        "y": 18,
+        "w": 11,
+        "h": 7
+      },
+      "area": 77,
+      "norm_area": 0.00020052083333333334,
+      "aspect_ratio": 1.5714285714285714,
+      "centroid": {
+        "x": 0.15677083333333333,
+        "y": 0.05375
+      },
+      "mean_intensity": 33.4025974025974,
+      "edge_density": 0.2727272727272727
+    },
+    {
+      "id": 310,
+      "category": "IC_CHIP",
+      "bbox": {
+        "x": 591,
+        "y": 0,
+        "w": 44,
+        "h": 26
+      },
+      "area": 1144,
+      "norm_area": 0.002979166666666667,
+      "aspect_ratio": 1.6923076923076923,
+      "centroid": {
+        "x": 0.6385416666666667,
+        "y": 0.0325
+      },
+      "mean_intensity": 16.767482517482517,
+      "edge_density": 0.27534965034965037
+    },
+    {
+      "id": 311,
+      "category": "MISC",
+      "bbox": {
+        "x": 643,
+        "y": 14,
+        "w": 38,
+        "h": 18
+      },
+      "area": 684,
+      "norm_area": 0.00178125,
+      "aspect_ratio": 2.111111111111111,
+      "centroid": {
+        "x": 0.6895833333333333,
+        "y": 0.0575
+      },
+      "mean_intensity": 27.922514619883042,
+      "edge_density": 0.29239766081871343
+    },
+    {
+      "id": 312,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 487,
+        "y": 8,
+        "w": 3,
+        "h": 17
+      },
+      "area": 51,
+      "norm_area": 0.0001328125,
+      "aspect_ratio": 0.17647058823529413,
+      "centroid": {
+        "x": 0.5088541666666667,
+        "y": 0.04125
+      },
+      "mean_intensity": 64.90196078431373,
+      "edge_density": 0.7058823529411765
+    },
+    {
+      "id": 313,
+      "category": "MISC",
+      "bbox": {
+        "x": 431,
+        "y": 3,
+        "w": 8,
+        "h": 17
+      },
+      "area": 136,
+      "norm_area": 0.0003541666666666667,
+      "aspect_ratio": 0.47058823529411764,
+      "centroid": {
+        "x": 0.453125,
+        "y": 0.02875
+      },
+      "mean_intensity": 21.5,
+      "edge_density": 0.25735294117647056
+    },
+    {
+      "id": 314,
+      "category": "MISC",
+      "bbox": {
+        "x": 628,
+        "y": 0,
+        "w": 30,
+        "h": 12
+      },
+      "area": 360,
+      "norm_area": 0.0009375,
+      "aspect_ratio": 2.5,
+      "centroid": {
+        "x": 0.6697916666666667,
+        "y": 0.015
+      },
+      "mean_intensity": 21.908333333333335,
+      "edge_density": 0.29444444444444445
+    },
+    {
+      "id": 315,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 595,
+        "y": 0,
+        "w": 13,
+        "h": 5
+      },
+      "area": 65,
+      "norm_area": 0.00016927083333333334,
+      "aspect_ratio": 2.6,
+      "centroid": {
+        "x": 0.6265625,
+        "y": 0.00625
+      },
+      "mean_intensity": 22.892307692307693,
+      "edge_density": 0.46153846153846156
+    },
+    {
+      "id": 316,
+      "category": "RESISTOR",
+      "bbox": {
+        "x": 186,
+        "y": 0,
+        "w": 26,
+        "h": 7
+      },
+      "area": 182,
+      "norm_area": 0.00047395833333333334,
+      "aspect_ratio": 3.7142857142857144,
+      "centroid": {
+        "x": 0.20729166666666668,
+        "y": 0.00875
+      },
+      "mean_intensity": 9.324175824175825,
+      "edge_density": 0.24725274725274726
+    }
+  ]
+}
