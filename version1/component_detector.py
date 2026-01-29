@@ -16,10 +16,7 @@ green_pixels = np.count_nonzero(green_mask)
 total_pixels = img_gray.shape[0] * img_gray.shape[1]
 green_ratio = green_pixels / total_pixels
 
-if green_ratio > 0.3:
-    object_type = "PCB"
-else:
-    object_type = "PCB"  # defaulting for now
+object_type = "PCB"
 
 print("Object:", object_type)
 
