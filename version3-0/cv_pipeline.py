@@ -31,6 +31,7 @@ def run_cv(image_path: str) -> Dict:
     visualization = visualize_components(cropped, components)
     ic_boxes = detect_ic_candidates(filtered)
     ic_names = []
+    size_components = bucket_components(components)
 
     for x, y, w, h in ic_boxes:
         crop = cropped[y:y+h, x:x+w]
@@ -42,7 +43,8 @@ def run_cv(image_path: str) -> Dict:
         "object_type": object_type,
         "visualization": visualization,
         "components": components,
-        "IC name": ic_names
+        "IC name": ic_names,
+        "Bucket components": size_components
     }
 
 
@@ -259,3 +261,35 @@ def detect_ic_candidates(boxes):
         if area > 2000 and 0.5 < ar < 4:
             ic_boxes.append((x,y,w,h))
     return ic_boxes
+
+def bucket_components(components):
+    buckets = {
+        "tiny": 0,
+        "medium": 0,
+        "large": 0
+    }
+
+    areas = [c["area"] for c in components]
+    if not areas:
+        return buckets
+
+    a_min = min(areas)
+    a_max = max(areas)
+
+    for c in components:
+        norm = (c["area"] - a_min) / (a_max - a_min + 1e-6)
+
+        if norm < 0.2:
+            buckets["tiny"] += 1
+        elif norm < 0.6:
+            buckets["medium"] += 1
+        else:
+            buckets["large"] += 1
+
+    return buckets
+
+if __name__ == "__main__":
+    res = run_cv("pcbclear2.jpg")
+    print(res)
+
+
