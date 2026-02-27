@@ -204,7 +204,7 @@ git clone https://github.com/Raghushubi/IPSA.git
 cd IPSA/version5
 ```
 
-2. Create a virtual environment
+2. Create a virtual environment (Use Python 3.10 for compatibility with PaddleOCR)
 
 ```
 python -m venv venv
@@ -222,11 +222,18 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+4. Ensure Ollama is installed and the required model is available:
+
+```
+ollama pull qwen2.5:7b
+ollama serve
+```
+
 ---
 
 ## Running the System (Version 5)
 
-### Run Main Pipeline
+### Run Main Pipeline (Uses the default sample image pcbclear2.jpg)
 
 ```
 python main.py
