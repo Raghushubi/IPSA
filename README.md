@@ -296,5 +296,3 @@ A detailed explanation of the system, experiments, and observations is available
 
 **`PCB_Analysis_Report.pdf` (root directory)**
 
----
-
