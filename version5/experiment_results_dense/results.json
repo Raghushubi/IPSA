@@ -1,0 +1,98 @@
+[
+    {
+        "type": "resolution",
+        "scale": 1.0,
+        "result": {
+            "status": "error",
+            "reason": "unknown_tool: ocr_text"
+        }
+    },
+    {
+        "type": "resolution",
+        "scale": 0.75,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Custom",
+            "estimated_bom_inr": "250-1300 INR",
+            "reasoning": "The PCB contains a high number of components (509) with varying areas, indicating a complex design. The presence of 25 ICs suggests it is not a simple board but likely custom designed for specific purposes."
+        }
+    },
+    {
+        "type": "resolution",
+        "scale": 0.5,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Complex Digital Circuit",
+            "estimated_bom_inr": "20-650 INR",
+            "reasoning": "The PCB has a high component count with a significant number of unknown components. The presence of 11 ICs and various passive components suggests it is a complex digital circuit board, likely for an application requiring multiple integrated circuits such as microcontrollers or other digital logic devices. Given the range of possible costs per component type, the total BOM cost estimation falls within 20-650 INR."
+        }
+    },
+    {
+        "type": "resolution",
+        "scale": 0.25,
+        "result": {
+            "complexity": "Moderate",
+            "pcb_type": "Generic Circuit Board",
+            "estimated_bom_inr": "10-250 INR",
+            "reasoning": "The component count is consistent with the previous estimation. OCR did not identify specific IC names, treating them as unknown parts. The cost range remains valid based on typical component pricing."
+        }
+    },
+    {
+        "type": "resolution",
+        "scale": 0.1,
+        "result": {
+            "complexity": "Unknown",
+            "pcb_type": "Unknown",
+            "estimated_bom_inr": "0-50 INR",
+            "reasoning": "No components detected in image. Input quality too low or resolution insufficient."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 1.0,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Customized PCB with mixed components",
+            "estimated_bom_inr": "420-1680 INR",
+            "reasoning": "The board has a high component count and significant area coverage. The majority of the ICs are unknown, but there are 42 ICs present, indicating complexity."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 0.75,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Complex Digital Circuit Board",
+            "estimated_bom_inr": "50-4800 INR",
+            "reasoning": "The component count and unknown type count are high, indicating a complex design. The IC count is low, suggesting it might be a digital circuit board rather than analog or mixed-signal."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 0.5,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Complex Digital PCB",
+            "estimated_bom_inr": "20-5000 INR",
+            "reasoning": "The board has a high component count (1059) and the majority of components are categorized as 'unknown', which is typical for complex digital PCBs. The presence of 52 ICs, while low in comparison to total components, indicates potential for diverse parts, leading to wide BOM cost variation."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 0.25,
+        "result": {
+            "status": "error",
+            "reason": "unknown_tool: estimate_cost"
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 0.1,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Custom Embedded System",
+            "estimated_bom_inr": "107-230 INR",
+            "reasoning": "The component count of 456 with 22 ICs suggests a complex design. The presence of numerous unknown components, though not confirmed as ICs by OCR and CV, aligns with the estimated BOM cost range."
+        }
+    }
+]

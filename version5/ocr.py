@@ -9,31 +9,66 @@ ocr = PaddleOCR(use_angle_cls=True, lang='en')
 
 
 def preprocess_for_ocr(img):
-    img = cv2.resize(img, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    gray = cv2.equalizeHist(gray)
-    return gray
+    if img is None:
+        return None
+
+    try:
+        img = cv2.resize(img, None, fx=2, fy=2, interpolation=cv2.INTER_CUBIC)
+        gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+        gray = cv2.equalizeHist(gray)
+        return gray
+    except Exception:
+        return None
+
+
+def safe_text_clean(text):
+    """
+    Remove problematic characters (prevents encoding issues).
+    """
+    try:
+        return text.encode("ascii", "ignore").decode().strip()
+    except Exception:
+        return ""
 
 
 def read_full_image_text(image):
     """
     OCR on entire image.
+    Always returns a list.
     """
 
-    processed = preprocess_for_ocr(image)
-    result = ocr.ocr(processed, cls=True)
-
     texts = []
+
+    if image is None:
+        return texts
+
+    processed = preprocess_for_ocr(image)
+    if processed is None:
+        return texts
+
+    try:
+        result = ocr.ocr(processed, cls=True)
+    except Exception:
+        return texts
 
     if result is None:
         return texts
 
-    for line in result:
-        for word_info in line:
-            text = word_info[1][0]
-            conf = word_info[1][1]
+    for line in result or []:
+        if not line:
+            continue
 
-            text = text.strip()
+        for word_info in line:
+            try:
+                text = word_info[1][0]
+                conf = word_info[1][1]
+            except Exception:
+                continue
+
+            text = safe_text_clean(text)
+
+            if not text:
+                continue
 
             if conf < 0.4:
                 continue
@@ -45,10 +80,17 @@ def read_full_image_text(image):
 
     return texts
 
+
 def filter_ic_candidates(texts):
     ic_candidates = []
 
+    if not texts:
+        return ic_candidates
+
     for text in texts:
+        if not isinstance(text, str):
+            continue
+
         text = text.replace(" ", "").upper()
 
         # reject reference designators
@@ -84,39 +126,64 @@ def read_ic_text_from_image(image):
     texts = read_full_image_text(image)
     ic_names = filter_ic_candidates(texts)
 
-    return ic_names
+    return ic_names or []
 
 
 def read_region_text(image, bbox):
     """
-    OCR on a specific region (for later refinement).
+    OCR on a specific region
     bbox: dict with x, y, w, h
+    Always returns a list.
     """
 
-    x = bbox["x"]
-    y = bbox["y"]
-    w = bbox["w"]
-    h = bbox["h"]
+    texts = []
 
-    crop = image[y:y+h, x:x+w]
+    if image is None or bbox is None:
+        return texts
 
-    if crop.size == 0:
-        return []
+    try:
+        x = bbox.get("x", 0)
+        y = bbox.get("y", 0)
+        w = bbox.get("w", 0)
+        h = bbox.get("h", 0)
+    except Exception:
+        return texts
+
+    if w <= 0 or h <= 0:
+        return texts
+
+    crop = image[y:y + h, x:x + w]
+
+    if crop is None or crop.size == 0:
+        return texts
 
     processed = preprocess_for_ocr(crop)
-    result = ocr.ocr(processed, cls=True)
+    if processed is None:
+        return texts
 
-    texts = []
+    try:
+        result = ocr.ocr(processed, cls=True)
+    except Exception:
+        return texts
 
     if result is None:
         return texts
 
-    for line in result:
-        for word_info in line:
-            text = word_info[1][0]
-            conf = word_info[1][1]
+    for line in result or []:
+        if not line:
+            continue
 
-            text = text.strip()
+        for word_info in line:
+            try:
+                text = word_info[1][0]
+                conf = word_info[1][1]
+            except Exception:
+                continue
+
+            text = safe_text_clean(text)
+
+            if not text:
+                continue
 
             if conf < 0.4:
                 continue
@@ -128,11 +195,18 @@ def read_region_text(image, bbox):
 
     return texts
 
+
 def extract_reference_counts(texts):
     counts = {"R": 0, "C": 0, "U": 0, "J": 0}
 
+    if not texts:
+        return counts
+
     for t in texts:
-        t = t.strip().upper()
+        if not isinstance(t, str):
+            continue
+
+        t = safe_text_clean(t).upper()
 
         if len(t) < 2:
             continue

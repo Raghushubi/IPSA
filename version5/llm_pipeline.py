@@ -8,8 +8,20 @@ OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL_NAME = "qwen2.5:7b-instruct"
 
 
+def safe_post(payload):
+    try:
+        response = requests.post(OLLAMA_URL, json=payload, timeout=300)
+        response.raise_for_status()
+        return response.json()
+    except Exception as e:
+        return {"error": f"llm_request_failed: {str(e)}"}
+
+
 def run_local_llm(components: List[Dict]) -> Dict:
-    prompt = build_prompt(components)
+    try:
+        prompt = build_prompt(components)
+    except Exception as e:
+        return {"error": f"prompt_build_failed: {str(e)}"}
 
     payload = {
         "model": MODEL_NAME,
@@ -17,10 +29,11 @@ def run_local_llm(components: List[Dict]) -> Dict:
         "stream": False
     }
 
-    response = requests.post(OLLAMA_URL, json=payload, timeout=300)
-    response.raise_for_status()
+    result = safe_post(payload)
 
-    result = response.json()
+    if "error" in result:
+        return result
+
     text = result.get("response", "").strip()
 
     return parse_llm_response(text)
@@ -31,13 +44,19 @@ def build_prompt(components: List[Dict]) -> str:
     if num == 0:
         raise ValueError("No components detected")
 
-    areas = [c["area"] for c in components]
-    norm_areas = [c["normalized_area"] for c in components]
+    areas = [c.get("area", 0) for c in components]
+    norm_areas = [c.get("normalized_area", 0) for c in components]
+
+    if not areas:
+        raise ValueError("No valid area data")
 
     type_counts = {}
     size_counts = {}
 
     for c in components:
+        if not isinstance(c, dict):
+            continue
+
         t = c.get("type", "unknown")
         s = c.get("size", "unknown")
 
@@ -48,7 +67,7 @@ def build_prompt(components: List[Dict]) -> str:
         "count": num,
         "min_area": min(areas),
         "max_area": max(areas),
-        "mean_area": sum(areas) / num,
+        "mean_area": sum(areas) / num if num > 0 else 0,
         "coverage": sum(norm_areas),
         "type_counts": type_counts,
         "size_counts": size_counts
@@ -89,6 +108,9 @@ Respond ONLY with valid JSON:
 
 
 def parse_llm_response(text: str) -> Dict:
+    if not text:
+        return {"error": "empty_response"}
+
     try:
         start = text.index("{")
         end = text.rindex("}") + 1
@@ -96,6 +118,7 @@ def parse_llm_response(text: str) -> Dict:
         return json.loads(json_str)
     except Exception:
         return {
+            "error": "invalid_json",
             "raw_model_output": text
         }
 
@@ -159,21 +182,25 @@ Allowed outputs:
   }
 }
 """
+
     full_prompt = system_instructions + "\n\nConversation:\n"
 
     for msg in messages:
-        role = msg["role"]
-        content = msg["content"]
+        role = msg.get("role", "user")
+        content = msg.get("content", "")
         full_prompt += f"{role.upper()}: {content}\n"
 
     full_prompt += "\nAvailable Tools:\n"
 
     for tool in tools:
-        full_prompt += f"""
-Tool: {tool['name']}
-Description: {tool['description']}
-Parameters: {json.dumps(tool['parameters'], indent=2)}
+        try:
+            full_prompt += f"""
+Tool: {tool.get('name')}
+Description: {tool.get('description')}
+Parameters: {json.dumps(tool.get('parameters', {}), indent=2)}
 """
+        except Exception:
+            continue
 
     payload = {
         "model": MODEL_NAME,
@@ -181,24 +208,25 @@ Parameters: {json.dumps(tool['parameters'], indent=2)}
         "stream": False
     }
 
-    response = requests.post(OLLAMA_URL, json=payload, timeout=300)
-    response.raise_for_status()
+    result = safe_post(payload)
 
-    result = response.json()
+    if "error" in result:
+        return result
+
     text = result.get("response", "").strip()
 
     return parse_agent_response(text)
 
-def parse_agent_response(text: str) -> Dict:
-    import json
 
-    # try direct parse
+def parse_agent_response(text: str) -> Dict:
+    if not text:
+        return {"error": "empty_response"}
+
     try:
         return json.loads(text)
-    except:
+    except Exception:
         pass
 
-    # extract largest json block
     try:
         start = text.find("{")
         end = text.rfind("}")
@@ -206,8 +234,7 @@ def parse_agent_response(text: str) -> Dict:
         if start != -1 and end != -1:
             json_str = text[start:end+1]
             return json.loads(json_str)
-
-    except:
+    except Exception:
         pass
 
     return {

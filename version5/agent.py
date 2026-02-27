@@ -4,6 +4,30 @@ from agent_tools import execute_tool, get_tool_specs
 from llm_pipeline import run_llm
 import json
 
+
+def safe_json_dumps(data):
+    try:
+        return json.dumps(data)
+    except Exception:
+        return "{}"
+
+
+def safe_parse_llm_output(output):
+    """
+    Ensures LLM output is a dict.
+    """
+    if isinstance(output, dict):
+        return output
+
+    if isinstance(output, str):
+        try:
+            return json.loads(output)
+        except Exception:
+            return {"error": "invalid_json", "raw_output": output}
+
+    return {"error": "invalid_format", "raw_output": str(output)}
+
+
 def build_reasoning_input(state):
     data = {}
 
@@ -48,8 +72,9 @@ def compact_state(state):
         "ic_count": ic_info.get("ic_count_ocr")
     }
 
+
 def run_agent(image_path: str, max_steps: int = 6):
-    
+
     tools = get_tool_specs()
 
     messages = []
@@ -81,23 +106,54 @@ If data is insufficient, explicitly say so.
 """
     })
 
-
     for step in range(max_steps):
 
         # inject state
+        try:
+            state_json = safe_json_dumps(compact_state(state))
+        except Exception:
+            state_json = "{}"
+
         messages_with_state = messages + [{
             "role": "system",
-            "content": f"Current state:\n{json.dumps(compact_state(state))}"
+            "content": f"Current state:\n{state_json}"
         }]
 
         print("\n--- STEP ---", step + 1)
         print("\n--- STATE SIZE ---")
-        print(len(json.dumps(state)))
+        print(len(safe_json_dumps(state)))
 
-        response = run_llm(messages_with_state, tools)
+        # No components detected, then exit early
+        if state.get("stats") and state["stats"].get("component_count", 0) == 0:
+            return {
+                "status": "no_components",
+                "result": {
+                    "complexity": "Unknown",
+                    "pcb_type": "Unknown",
+                    "estimated_bom_inr": "0-50 INR",
+                    "reasoning": "No components detected in image. Input quality too low or resolution insufficient."
+                }
+            }
+
+        try:
+            response = run_llm(messages_with_state, tools)
+        except Exception as e:
+            return {
+                "status": "error",
+                "reason": f"llm_call_failed: {str(e)}"
+            }
 
         print("\n--- LLM Response ---")
         print(response)
+
+        response = safe_parse_llm_output(response)
+
+        if "error" in response:
+            return {
+                "status": "llm_error",
+                "reason": response.get("error"),
+                "raw_output": response.get("raw_output")
+            }
 
         if state["stats"] is not None and state["ic_info"] is None:
             # only override if llm is trying to finish early
@@ -110,21 +166,15 @@ If data is insufficient, explicitly say so.
                     }
                 }
 
-
-        if not isinstance(response, dict):
-            return {
-                "status": "error",
-                "reason": "invalid_response_format",
-                "raw": response
-            }
-
-        # tool call 
+        # tool call
         if "tool_call" in response:
 
-            tool_name = response["tool_call"].get("name")
-            arguments = response["tool_call"].get("arguments", {})
+            tool_call = response.get("tool_call") or {}
 
-            tool_names = [t["name"] for t in tools]
+            tool_name = tool_call.get("name")
+            arguments = tool_call.get("arguments", {})
+
+            tool_names = [t.get("name") for t in tools]
 
             if tool_name not in tool_names:
                 return {
@@ -133,10 +183,8 @@ If data is insufficient, explicitly say so.
                 }
 
             if used_tools and used_tools[-1] == tool_name:
-                return {
-                    "status": "error",
-                    "reason": f"repeated_tool_call: {tool_name}"
-                }
+                print("\n--- SKIPPING REPEATED TOOL ---")
+                continue
 
             if arguments is None:
                 arguments = {}
@@ -162,15 +210,18 @@ If data is insufficient, explicitly say so.
                 state["stats"] = tool_result
 
             # memory update
-            messages.append({
-                "role": "assistant",
-                "content": json.dumps(response)
-            })
+            try:
+                messages.append({
+                    "role": "assistant",
+                    "content": safe_json_dumps(response)
+                })
 
-            messages.append({
-                "role": "tool",
-                "content": json.dumps(tool_result)
-            })
+                messages.append({
+                    "role": "tool",
+                    "content": safe_json_dumps(tool_result)
+                })
+            except Exception:
+                pass
 
             print("\n--- Tool Executed ---")
             print(tool_name)
@@ -179,7 +230,7 @@ If data is insufficient, explicitly say so.
         # final answer
         elif "final_answer" in response:
 
-            final = response["final_answer"]
+            final = response.get("final_answer") or {}
 
             reasoning_data = build_reasoning_input(state)
 
@@ -192,10 +243,10 @@ If data is insufficient, explicitly say so.
                     "role": "user",
                     "content": f"""
 Original Answer:
-{json.dumps(final)}
+{safe_json_dumps(final)}
 
 Observed Data:
-{json.dumps(reasoning_data)}
+{safe_json_dumps(reasoning_data)}
 
 Task:
 Check if the answer is consistent with the data.
@@ -216,10 +267,18 @@ Respond ONLY in JSON format:
                 }
             ]
 
-            reflection_response = run_llm(reflection_messages, tools)
+            try:
+                reflection_response = run_llm(reflection_messages, tools)
+            except Exception as e:
+                return {
+                    "status": "error",
+                    "reason": f"reflection_failed: {str(e)}"
+                }
 
             print("\n--- Reflection Response ---")
             print(reflection_response)
+
+            reflection_response = safe_parse_llm_output(reflection_response)
 
             if isinstance(reflection_response, dict) and "final_answer" in reflection_response:
                 final = reflection_response["final_answer"]
