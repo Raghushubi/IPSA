@@ -1,7 +1,8 @@
 # Agent-Based PCB Analysis using Computer Vision and OCR
 
-## Overview
+**Project (IPSA): Intelligent PCB Should Cost Estimator with Agentic AI Vision Analysis**
 
+## Overview
 This project presents an agent-based system for analyzing printed circuit board (PCB) images using classical computer vision (CV), optical character recognition (OCR), and large language model (LLM)-based reasoning.
 
 The problem is challenging because real-world PCB images contain small, densely packed components, variable lighting, and limited readable text, making traditional detection and recognition unreliable.
