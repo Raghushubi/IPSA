@@ -18,7 +18,7 @@ def safe_run_agent(path):
 
 
 def main():
-    st.title("PCB Inspection & BOM Estimation System")
+    st.title("Agent-Based PCB Cost Estimation System")
     st.write("Upload a PCB image for analysis")
 
     uploaded_file = st.file_uploader(
@@ -62,7 +62,19 @@ def main():
                 st.success(f"Agent completed in {steps_used} step(s)")
 
                 st.subheader("BOM Estimation Result")
+
+                bom_table = llm_result.get("bom_table")
+
+                if bom_table:
+                    st.subheader("Estimated BOM Table")
+                    st.table(bom_table)
+
+                st.subheader("Full LLM Output")
                 st.json(llm_result)
+
+                estimated_cost = llm_result.get("estimated_bom_inr")
+                if estimated_cost:
+                    st.success(f"Estimated BOM Cost: {estimated_cost}")
 
                 logs = result.get("logs")
                 if logs:

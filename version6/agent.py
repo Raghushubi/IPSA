@@ -255,10 +255,22 @@ If correct, return same answer.
 If incorrect or uncertain, revise it.
 
 Respond ONLY in JSON format:
+
+If a bom_table exists in the original answer, you MUST preserve it.
+Use numeric values for counts.
+
 {{
   "final_answer": {{
     "complexity": "...",
     "pcb_type": "...",
+    "bom_table": [
+      {{
+        "component": "...",
+        "estimated_count": "...",
+        "unit_cost_inr": "...",
+        "estimated_total_inr": "..."
+      }}
+    ],
     "estimated_bom_inr": "...",
     "reasoning": "..."
   }}

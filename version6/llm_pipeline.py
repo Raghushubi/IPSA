@@ -131,7 +131,7 @@ You must ONLY return valid JSON.
 No explanations, no extra text.
 
 You analyze PCB data using CV and OCR signals.
-
+Return BOM table even if OCR information is incomplete.
 IMPORTANT: OCR INTERPRETATION RULES
 
 OCR text may contain:
@@ -162,6 +162,31 @@ COST ESTIMATION RULES:
   - IC: 20–500+ INR
 - Return cost as a RANGE, not a single value.
 
+BOM TABLE RULES:
+
+Build a simple BOM table using available signals.
+
+1. Use CV-derived component counts as the primary source.
+   - type_counts gives estimated number of resistors, capacitors, ICs.
+
+2. Use OCR results only as supporting evidence.
+   - OCR IC names may indicate specific chips.
+   - Do NOT invent new component names.
+
+3. If IC names are detected, include them as separate rows.
+
+4. If exact components are unknown, use generic categories:
+   - resistor
+   - capacitor
+   - IC
+
+5. Use approximate unit cost ranges:
+   resistor: 0.5–5 INR
+   capacitor: 1–50 INR
+   IC: 20–500+ INR
+
+6. Calculate estimated total per row and then overall BOM range.
+
 Allowed outputs:
 
 1) Tool call:
@@ -173,12 +198,21 @@ Allowed outputs:
 }
 
 2) Final answer:
+
 {
   "final_answer": {
     "complexity": "...",
     "pcb_type": "...",
+    "bom_table": [
+      {
+        "component": "...",
+        "estimated_count": "...",
+        "unit_cost_inr": "...",
+        "estimated_total_inr": "..."
+      }
+    ],
     "estimated_bom_inr": "min-max INR",
-    "reasoning": "..."
+    "reasoning": "short explanation"
   }
 }
 """

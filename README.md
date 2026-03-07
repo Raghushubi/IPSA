@@ -15,8 +15,11 @@ An experimental pipeline is also included to evaluate how the system behaves und
 
 ## Repository Structure
 
-The repository contains multiple versions of the system showing its evolution. The stable implementation described in the report is in `version5/`.
-`version6/` contains ongoing improvements, particularly to the OCR subsystem.
+The repository contains multiple versions of the system showing its evolution. 
+The most complete implementation is available in `version6/`.
+
+The report included in this repository analyzes the behavior of the Version 5 system. 
+Version 6 introduces improvements to the OCR module and the output format while keeping the core perception–reasoning architecture unchanged.
 
 ```
 root/
@@ -27,7 +30,7 @@ root/
 ├── version3-1/
 ├── version4/
 ├── version5/           
-├── version6/ (ongoing...)
+├── version6/ (final complete implementation)
 │
 ├── PCB_Analysis_Report.pdf  # Detailed report of experiments and system design (from version5)      
 ```
@@ -173,50 +176,63 @@ Focus is on system design, not accuracy.
 
 ---
 
-### Version 6 (in progress)
-Current ongoing version
+### Version 6 — Final Version
 
-OCR changes as of now:
+Version 6 introduces improvements mainly to the OCR subsystem and the final output format.
+
+OCR changes:
 
 * PaddleOCR removed due to Python version compatibility issues.
-* OCR replaced with DocTR (python-doctr), which works on newer Python versions.
+* OCR replaced with **DocTR (python-doctr)** which works reliably on newer Python environments (e.g. Python 3.11–3.12).
 * Existing filtering logic for extracting IC part numbers remains unchanged.
+
+Output changes:
+
+* The previous paragraph-style analysis has been replaced with a **structured BOM estimation table**.
+* The BOM table displays estimated component counts, unit cost ranges, and total cost ranges.
+
+These changes improve portability and readability of results without altering the overall perception–reasoning architecture.
 
 ---
 
-## Version 5 Project Structure
+## Version 6 Project Structure
 
 ```
-version5/
+version6/
 │
 ├── app.py                     # Streamlit UI
 ├── main.py                    # Main pipeline entry point
 ├── agent.py                   # Agent logic
 ├── agent_tools.py             # Tool definitions
 ├── cv_pipeline.py             # Computer vision pipeline
-├── ocr.py                     # OCR module (PaddleOCR)
+├── ocr.py                     # OCR module (DocTR)
 ├── llm_pipeline.py            # LLM interaction
 ├── experiment_camera_spec.py  # Experiment pipeline
 │
+├── pcbclear2.jpg (Input Image 1)
+├── pcbimagetrial4k.png (Input Image 2)
+├── pcbimagetrial.jfif (Input Image 3. Not used due to lower quality, as input image 2 is the 4k version of this image.)
 ├── experiment_results_clean/  # Generated outputs for Image 1 (pcbclear2.jpg)
 ├── experiment_results_dense/  # Generated outputs for Image 2 (pcbimagetrial4k.png)
-├── outputV5.pdf               # Example system output for sample PCB images
+├── outputv6.pdf               # Example system output for sample PCB images
 ├── README.md
 └── requirements.txt
 ```
 
 ---
 
-## Setup Instructions
+## Setup Instructions 
+
+Recommended Python version: **Python 3.10+**
 
 1. Clone the repository
 
 ```
 git clone https://github.com/Raghushubi/IPSA.git
-cd IPSA/version5
+cd IPSA/version6
 ```
 
-2. Create a virtual environment (Use Python 3.10 for compatibility with PaddleOCR)
+2. Create a virtual environment
 
 ```
 python -m venv venv
@@ -243,7 +259,7 @@ ollama serve
 
 ---
 
-## Running the System (Version 5)
+## Running the System (Version 6)
 
 ### Run Main Pipeline (Uses the default sample image pcbclear2.jpg)
 
@@ -315,3 +331,6 @@ A detailed explanation of the system, experiments, and observations is available
 
 **`PCB_Analysis_Report.pdf` (root directory)**
 
+Note: The experimental analysis in the report was conducted on Version 5 of the system. 
+Version 6 introduces improvements to OCR compatibility and output presentation, 
+but the core observations and conclusions remain consistent.

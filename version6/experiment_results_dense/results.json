@@ -1,0 +1,282 @@
+[
+    {
+        "type": "resolution",
+        "scale": 1.0,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Customized Digital Circuit Board",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 849,
+                    "unit_cost_inr": "0.5-5",
+                    "estimated_total_inr": "424.5-4245"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 42,
+                    "unit_cost_inr": "1-50",
+                    "estimated_total_inr": "42-2100"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 42,
+                    "unit_cost_inr": "20-500+",
+                    "estimated_total_inr": "840-21000+"
+                }
+            ],
+            "estimated_bom_inr": "470.5-63245+ INR",
+            "reasoning": "Component counts are updated based on CV analysis, OCR only indicates possible ICs without specific names."
+        }
+    },
+    {
+        "type": "resolution",
+        "scale": 0.75,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Complex Digital PCB",
+            "bom_table": [
+                {
+                    "component": "unknown",
+                    "estimated_count": 480,
+                    "unit_cost_inr": "0.5-5 INR",
+                    "estimated_total_inr": "240-2400 INR"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 25,
+                    "unit_cost_inr": "20-500+ INR",
+                    "estimated_total_inr": "500-12500 INR"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 3,
+                    "unit_cost_inr": "1-50 INR",
+                    "estimated_total_inr": "3-150 INR"
+                },
+                {
+                    "component": "resistor",
+                    "estimated_count": 1,
+                    "unit_cost_inr": "0.5-5 INR",
+                    "estimated_total_inr": "0.5-5 INR"
+                }
+            ],
+            "estimated_bom_inr": "2954.5-146805.5 INR",
+            "reasoning": "Based on component counts and area coverage, the PCB appears to be a complex digital design with significant space devoted to unknown components."
+        }
+    },
+    {
+        "type": "resolution",
+        "scale": 0.5,
+        "result": {
+            "complexity": "moderate",
+            "pcb_type": "digital logic board",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 2,
+                    "unit_cost_inr": "0.5-5 INR",
+                    "estimated_total_inr": "1-10 INR"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 40,
+                    "unit_cost_inr": "1-50 INR",
+                    "estimated_total_inr": "40-2000 INR"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 11,
+                    "unit_cost_inr": "20-500+ INR",
+                    "estimated_total_inr": "220-5500+ INR"
+                }
+            ],
+            "estimated_bom_inr": "262-7510+ INR",
+            "reasoning": "Based on component counts and cost ranges."
+        }
+    },
+    {
+        "type": "resolution",
+        "scale": 0.25,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Custom Application PCB",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 4,
+                    "unit_cost_inr": "0.5-5",
+                    "estimated_total_inr": "2-20 INR"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 7,
+                    "unit_cost_inr": "1-50",
+                    "estimated_total_inr": "7-350 INR"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 3,
+                    "unit_cost_inr": "20-500+",
+                    "estimated_total_inr": "60-1500+ INR"
+                }
+            ],
+            "estimated_bom_inr": "79-2070 INR",
+            "reasoning": "The PCB has a higher complexity based on the component counts and area coverage. The OCR did not provide specific IC names, so we used generic categories."
+        }
+    },
+    {
+        "type": "resolution",
+        "scale": 0.1,
+        "result": {
+            "complexity": "Unknown",
+            "pcb_type": "Unknown",
+            "estimated_bom_inr": "0-50 INR",
+            "reasoning": "No components detected in image. Input quality too low or resolution insufficient."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 1.0,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Custom",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 767,
+                    "unit_cost_inr": "0.5-5",
+                    "estimated_total_inr": "383.5-3835"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 0,
+                    "unit_cost_inr": "1-50",
+                    "estimated_total_inr": "0-0"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 42,
+                    "unit_cost_inr": "20-500+",
+                    "estimated_total_inr": "840-21000"
+                }
+            ],
+            "estimated_bom_inr": "383.5-21395",
+            "reasoning": "Consistent with component counts and IC name possibilities from OCR, though IC count from CV is 0."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 0.75,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Complex Digital",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 880,
+                    "unit_cost_inr": "0.5-5 INR",
+                    "estimated_total_inr": "440-4400 INR"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 40,
+                    "unit_cost_inr": "1-50 INR",
+                    "estimated_total_inr": "40-2000 INR"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 48,
+                    "unit_cost_inr": "20-500+ INR",
+                    "estimated_total_inr": "960-24000 INR"
+                }
+            ],
+            "estimated_bom_inr": "1380-27400 INR",
+            "reasoning": "Based on component counts and IC names, the board is complex with high digital content."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 0.5,
+        "result": {
+            "complexity": "moderate",
+            "pcb_type": "generic circuit board",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 1007,
+                    "unit_cost_inr": "0.5-5 INR",
+                    "estimated_total_inr": "498.5-5035 INR"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 52,
+                    "unit_cost_inr": "20-500+ INR",
+                    "estimated_total_inr": "1040-26000 INR"
+                }
+            ],
+            "estimated_bom_inr": "1538.5-31035 INR",
+            "reasoning": "Based on the presence of 1059 components and 52 ICs, with unknown types dominating."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 0.25,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Custom",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 867,
+                    "unit_cost_inr": "0.5-5",
+                    "estimated_total_inr": "433.50 - 4335 INR"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 129,
+                    "unit_cost_inr": "1-50",
+                    "estimated_total_inr": "129 - 6450 INR"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 51,
+                    "unit_cost_inr": "20-500+",
+                    "estimated_total_inr": "1020 - 25500 INR"
+                }
+            ],
+            "estimated_bom_inr": "1631.50 - 32385 INR",
+            "reasoning": "Based on component counts derived from CV, with IC count confirmed by OCR as 0."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 0.1,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Complex Digital PCB",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 210,
+                    "unit_cost_inr": "0.5-5",
+                    "estimated_total_inr": "105-1,050 INR"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 210,
+                    "unit_cost_inr": "1-50",
+                    "estimated_total_inr": "210-10,500 INR"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 22,
+                    "unit_cost_inr": "20-500+",
+                    "estimated_total_inr": "440-11,000+ INR"
+                }
+            ],
+            "estimated_bom_inr": "755-31,650 INR",
+            "reasoning": "Adjusted counts based on CV-derived data and preserved OCR interpretation as supporting evidence."
+        }
+    }
+]

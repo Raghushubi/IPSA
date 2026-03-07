@@ -1,0 +1,276 @@
+[
+    {
+        "type": "resolution",
+        "scale": 1.0,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Complex Digital/Analog Hybrid PCB",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 108,
+                    "unit_cost_inr": "0.5-5 INR",
+                    "estimated_total_inr": "54-540 INR"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 33,
+                    "unit_cost_inr": "1-50 INR",
+                    "estimated_total_inr": "33-1650 INR"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 17,
+                    "unit_cost_inr": "20-500+ INR",
+                    "estimated_total_inr": "340-8500+ INR"
+                }
+            ],
+            "estimated_bom_inr": "627-12195+ INR",
+            "reasoning": "Based on CV analysis, there are 108 resistors and 33 capacitors. OCR indicates 17 ICs, but no specific names were detected."
+        }
+    },
+    {
+        "type": "resolution",
+        "scale": 0.75,
+        "result": {
+            "complexity": "Medium",
+            "pcb_type": "General purpose circuit board",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 1,
+                    "unit_cost_inr": "0.5-5",
+                    "estimated_total_inr": "0.5-5"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 32,
+                    "unit_cost_inr": "1-50",
+                    "estimated_total_inr": "32-1600"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 8,
+                    "unit_cost_inr": "20-500+",
+                    "estimated_total_inr": "160-4000+"
+                }
+            ],
+            "estimated_bom_inr": "173.5-4165+ INR",
+            "reasoning": "Based on CV-derived component counts and generic IC cost range."
+        }
+    },
+    {
+        "type": "resolution",
+        "scale": 0.5,
+        "result": {
+            "complexity": "Medium",
+            "pcb_type": "Unknown",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 1,
+                    "unit_cost_inr": "0.5-5",
+                    "estimated_total_inr": "0.5-5"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 18,
+                    "unit_cost_inr": "1-50",
+                    "estimated_total_inr": "18-900"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 3,
+                    "unit_cost_inr": "20-500+",
+                    "estimated_total_inr": "60-1500+"
+                }
+            ],
+            "estimated_bom_inr": "78.5-1505+ INR",
+            "reasoning": "Based on OCR and CV data, with known IC counts as supporting evidence."
+        }
+    },
+    {
+        "type": "resolution",
+        "scale": 0.25,
+        "result": {
+            "complexity": "Moderate",
+            "pcb_type": "Mixed Signal Board",
+            "bom_table": [
+                {
+                    "component": "capacitor",
+                    "estimated_count": 5,
+                    "unit_cost_inr": "1-50 INR",
+                    "estimated_total_inr": "5-250 INR"
+                },
+                {
+                    "component": "resistor",
+                    "estimated_count": 1,
+                    "unit_cost_inr": "0.5-5 INR",
+                    "estimated_total_inr": "0.5-5 INR"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 3,
+                    "unit_cost_inr": "20-500+ INR",
+                    "estimated_total_inr": "60-1500+ INR"
+                }
+            ],
+            "estimated_bom_inr": "70.5-1750+ INR",
+            "reasoning": "Primary component counts from CV are used, with OCR as supporting evidence."
+        }
+    },
+    {
+        "type": "resolution",
+        "scale": 0.1,
+        "result": {
+            "complexity": "Unknown",
+            "pcb_type": "Unknown",
+            "estimated_bom_inr": "0-50 INR",
+            "reasoning": "No components detected in image. Input quality too low or resolution insufficient."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 1.0,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Complex Digital Board",
+            "bom_table": [
+                {
+                    "component": "capacitor",
+                    "estimated_count": 33,
+                    "unit_cost_inr": "1-50 INR",
+                    "estimated_total_inr": "3.3-1650 INR"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 17,
+                    "unit_cost_inr": "20-500+ INR",
+                    "estimated_total_inr": "340-8500+ INR"
+                }
+            ],
+            "estimated_bom_inr": "343-9150+ INR",
+            "reasoning": "Based on component counts and IC names detected."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 0.75,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Complex Digital Circuit",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 1,
+                    "unit_cost_inr": "0.5-5 INR",
+                    "estimated_total_inr": "0.5-5 INR"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 54,
+                    "unit_cost_inr": "1-50 INR",
+                    "estimated_total_inr": "54-2700 INR"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 20,
+                    "unit_cost_inr": "20-500+ INR",
+                    "estimated_total_inr": "400-10000+ INR"
+                }
+            ],
+            "estimated_bom_inr": "460.5-10270+ INR",
+            "reasoning": "Based on observed component counts and area statistics, the PCB contains a high number of components indicative of a complex digital circuit."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 0.5,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Complex Digital PCB",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 3,
+                    "unit_cost_inr": "0.5-5",
+                    "estimated_total_inr": "1.5-15"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 50,
+                    "unit_cost_inr": "1-50",
+                    "estimated_total_inr": "50-2500"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 20,
+                    "unit_cost_inr": "20-500+",
+                    "estimated_total_inr": "400-10000+"
+                }
+            ],
+            "estimated_bom_inr": "456.5-13895+ INR",
+            "reasoning": "Based on CV analysis, the PCB contains a high number of components, primarily capacitors and ICs."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 0.25,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "Complex Digital Circuit",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 3,
+                    "unit_cost_inr": "0.5-5",
+                    "estimated_total_inr": "1.5-15"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 49,
+                    "unit_cost_inr": "1-50",
+                    "estimated_total_inr": "49-2450"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 27,
+                    "unit_cost_inr": "20-500+",
+                    "estimated_total_inr": "540-13500+"
+                }
+            ],
+            "estimated_bom_inr": "609.5-16065.5 INR",
+            "reasoning": "Based on component counts and OCR results, the PCB is complex with a high number of components."
+        }
+    },
+    {
+        "type": "distance",
+        "scale": 0.1,
+        "result": {
+            "complexity": "High",
+            "pcb_type": "General Purpose Digital/Analog Hybrid PCB",
+            "bom_table": [
+                {
+                    "component": "resistor",
+                    "estimated_count": 200,
+                    "unit_cost_inr": "0.5-5",
+                    "estimated_total_inr": "100-1000 INR"
+                },
+                {
+                    "component": "capacitor",
+                    "estimated_count": 80,
+                    "unit_cost_inr": "1-50",
+                    "estimated_total_inr": "80-4000 INR"
+                },
+                {
+                    "component": "IC",
+                    "estimated_count": 17,
+                    "unit_cost_inr": "20-500+",
+                    "estimated_total_inr": "340-8500+ INR"
+                }
+            ],
+            "estimated_bom_inr": "1490-18900+ INR",
+            "reasoning": "Based on the component counts from CV, the PCB contains 200 resistors, 80 capacitors, and 17 ICs. The OCR results did not provide specific IC names."
+        }
+    }
+]
