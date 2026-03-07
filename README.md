@@ -15,7 +15,8 @@ An experimental pipeline is also included to evaluate how the system behaves und
 
 ## Repository Structure
 
-The repository contains multiple versions of the system showing its evolution. The **main working implementation is in the `version5/` folder**.
+The repository contains multiple versions of the system showing its evolution. The stable implementation described in the report is in `version5/`.
+`version6/` contains ongoing improvements, particularly to the OCR subsystem.
 
 ```
 root/
@@ -25,9 +26,10 @@ root/
 ├── version3-0/
 ├── version3-1/
 ├── version4/
-├── version5/              # Final and most complete implementation
+├── version5/           
+├── version6/ (ongoing...)
 │
-├── PCB_Analysis_Report.pdf  # Detailed report of experiments and system design            
+├── PCB_Analysis_Report.pdf  # Detailed report of experiments and system design (from version5)      
 ```
 
 ---
@@ -128,9 +130,7 @@ Focus is on system design, not accuracy.
 
 ---
 
-### Version 5 — Final System (Current)
-
-This is the most complete and stable version of the system.
+### Version 5 
 
 #### Key Improvements
 
@@ -170,6 +170,17 @@ This is the most complete and stable version of the system.
   * Resolution changes
   * Camera distance (blur)
 * Stores results automatically for analysis
+
+---
+
+### Version 6 (in progress)
+Current ongoing version
+
+OCR changes as of now:
+
+* PaddleOCR removed due to Python version compatibility issues.
+* OCR replaced with DocTR (python-doctr), which works on newer Python versions.
+* Existing filtering logic for extracting IC part numbers remains unchanged.
 
 ---
 
@@ -226,7 +237,7 @@ pip install -r requirements.txt
 4. Ensure Ollama is installed and the required model is available:
 
 ```
-ollama pull qwen2.5:7b
+ollama pull qwen2.5:7b-instruct
 ollama serve
 ```
 
